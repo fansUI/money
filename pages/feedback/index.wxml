@@ -1,0 +1,19 @@
+<view style="height: 500rpx;background: #f3f3f3;border-radius: 20rpx;padding: 30rpx;font-size: 30rpx;color: #888888;">
+    <textarea style="width: 100%;height: 100%;" placeholder="请输入意见..."></textarea>
+</view>
+
+<view class="center"
+    style="font-size: 30rpx;margin: 66rpx 0 66rpx;color: #ffffff;height: 100rpx;background: url('/images/shopManage/button_icon.png');background-size: 100% 100%;">
+    确定</view>
+
+
+    <view class="d_flex ai_center" style="font-size: 28rpx;color: #666666;">
+        <view style="flex:1;" class="center">
+            <image style="margin-right: 16rpx;width: 80rpx;height: 80rpx;" src='/images/feedback/qq_icon.png'></image>
+            <text>123456789</text>
+        </view>
+        <view style="flex:1;" class="center">
+            <image style="margin-right: 16rpx;width: 80rpx;height: 80rpx;" src='/images/feedback/weix_icon.png'></image>
+            <text>123456789</text>
+        </view>
+    </view>

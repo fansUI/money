@@ -1,0 +1,10 @@
+page{
+  padding-bottom: 160rpx;
+}
+.border{
+  border-bottom: 1px solid #eeeeee
+}
+.content {
+  width: 750rpx;
+  height: 100rpx;
+}

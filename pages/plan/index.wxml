@@ -1,0 +1,27 @@
+<view style="padding: 30rpx;background: #ffffff;">
+    <view style="border-left: 10rpx solid red;font-size: 38rpx;color: #222222;padding-left: 20rpx;">红包计划</view>
+    <view class="d_flex ai_center" style="padding: 30rpx 0 16rpx;">
+        <image style="margin-right: 32rpx;width: 150rpx;height: 150rpx;background: url('/images/plan/About us_envelope_icon.png') no-repeat center center;background-size: 80% 80%;"></image>
+        <view style="font-size: 28rpx;color: #888888;line-height: 1.8;">
+            <view style="font-size: 34rpx;color: #444444;">红包自动兑换</view>
+            <view>生效时间：立即</view>
+            <view>使用说明：通过积分或红包达兑换套餐</view>
+            <view>进入地点：待赠送红包</view>
+        </view>
+    </view>
+</view>
+
+
+<view style="background-color: #ffffff;padding: 0 30rpx;margin-top: 20rpx;">
+    <view wx:for="{{lists}}" wx:key='index' class="d_flex ai_center jc_between" style="padding: 30rpx 0;border-bottom: 1px solid #eeeeee;">
+        <view style="font-size: 28rpx;color: #888888;line-height: 1.8;">
+            <view style="font-size: 36rpx;color: #333333;padding-bottom: 6rpx;">{{item.name}}</view>
+            <view>收益：<text style="color: red;">{{item.desc1}}</text></view>
+            <view class="d_flex ai_center">
+                <view>售价：{{item.desc2}}</view>
+                <view>售价：{{item.desc3}}</view>
+            </view>
+        </view>
+        <view style="width: 150rpx;height: 60rpx;background: url('/images/plan/About us_join_button_icon.png') no-repeat;background-size: 100% 100%;color: #ffffff;font-size: 28rpx;;" class="center">加入</view>
+    </view>
+</view>

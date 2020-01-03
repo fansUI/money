@@ -1,0 +1,49 @@
+<cu-tabbar current='4'></cu-tabbar>
+
+<view style="background-image: url('/images/mine/my_bg_icon.png');width: 750rpx;height: 396rpx;background-size: 100% 100%;padding: 0 30rpx;" class="d_flex ai_center">
+  <image style='width: 172rpx;height: 172rpx;border-radius: 50%;' src='/images/mine/my_Head_icon.png'></image>
+  <view style="flex: 1;padding: 0 0 0 20rpx;">
+    <view style="font-size: 30rpx;color: #000000;opacity: 0.72;">用户昵称</view>
+    <view style="font-size: 26rpx;color: #000000;opacity: 0.5;padding-top: 8rpx;">ID：18555555555</view>
+  </view>
+  <view>
+    <image mode='widthFix' style="width: 32rpx;margin-right: 12rpx;" src="/images/mine/my_code_icon.png"></image>
+    <image mode='widthFix' style="width: 28rpx;" src="/images/mine/my_arrow_icon.png"></image>
+  </view>
+</view>
+
+<view class="info d_flex ai_center jc_around" style="height: 180rpx;margin: -64rpx 30rpx 0 30rpx;background-color: #ffffff;box-shadow: 0 3px 20rpx 0px #cccccc;border-radius: 8rpx;">
+  <view class='d_flex flex_col ai_center'>
+    <text style="font-weight: bold;font-size: 26rpx;color: #000000;">23678</text>
+    <text style='font-size: 24rpx;color: #666666;padding-top: 12rpx;'>积分</text>
+  </view>
+  <view class='d_flex flex_col ai_center'>
+    <text style="font-weight: bold;font-size: 26rpx;color: #000000;">1428</text>
+    <text style='font-size: 24rpx;color: #666666;padding-top: 12rpx;'>红包</text>
+  </view>
+  <view class='d_flex flex_col ai_center'>
+    <text style="font-weight: bold;font-size: 26rpx;color: #000000;">1326</text>
+    <text style='font-size: 24rpx;color: #666666;padding-top: 12rpx;'>待释放红包</text>
+  </view>
+</view>
+
+<view style="margin: 20rpx 30rpx 0 30rpx;background-color: #ffffff;padding: 20rpx 30rpx 36rpx;box-shadow: 0 0 30rpx 0 #eeeeee;border-radius: 8rpx;">
+  <view class='d_flex ai_center jc_between'>
+    <text style="font-size: 30rpx;color: #777777;">商家订单</text>
+    <text style="font-size: 28rpx;color: #999999;">查看更多订单</text>
+  </view>
+  <view class="d_flex ai_center jc_between">
+    <view class="d_flex flex_col ai_center" wx:for="{{orders}}" wx:key='index' style="padding-top: 30rpx;">
+      <image style="width: 45rpx;height: 45rpx;" src='{{item.icon}}'></image>
+      <text style='margin-top: 12rpx;font-size: 26rpx;color: #888888;'>{{item.name}}</text>
+    </view>
+  </view>
+</view>
+
+
+<view class='lists'>
+  <view class="d_flex flex_col ai_center" wx:for="{{lists}}" wx:key='index' style="padding: 30rpx 0 20rpx 0;;">
+      <image style="width: 45rpx;height: 45rpx;" src='{{item.icon}}'></image>
+      <text style='margin-top: 12rpx;font-size: 26rpx;color: #888888;'>{{item.name}}</text>
+    </view>
+</view>

@@ -1,0 +1,14 @@
+<view style="padding: 30rpx 0 12rpx;font-size: 36rpx;color: #333333;">周三购买服务，再返三折</view>
+
+<view style="font-size: 32rpx;color: #888888;">
+    2018.01.01 18.01
+    <text style="padding-left: 20rpx;color: orangered">消息来源</text>
+</view>
+
+<image style="margin-top: 50rpx;width: 100%;height: 320rpx;background-color: #cccccc;"></image>
+
+<view style="padding: 16rpx 0 20rpx;line-height: 1.8;font-size: 30rpx;color: #666666;">
+    文字内容文字容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容
+</view>
+
+<image style="width: 100%;height: 320rpx;background-color: #cccccc;"></image>

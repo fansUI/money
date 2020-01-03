@@ -1,0 +1,43 @@
+<cu-tabbar current='3'></cu-tabbar>
+
+<view class="d_flex ai_center jc_between" style="height: 292rpx;background-size: 100% 100%;background-image: url('/images/shop/wodeshangpu.png')">
+  <view style='padding-left: 212rpx;'>
+    <view style="font-size: 32rpx;color: #000000;opacity: 0.45;">驿路小店</view>
+    <view style="font-size: 26rpx;color: #000000;opacity: 0.3;margin-top: 12rpx;">商户ID：9979822</view>
+  </view>
+  <view class="center" style="width: 180rpx;height: 110rpx;background: url('/images/shop/dibuct.png') no-repeat;background-size: 100% 100%;">
+    <image style="width: 28rpx; height: 28rpx;margin-right: 30rpx;" src='/images/shop/erweimas.png'></image>
+    <image style="width: 12rpx;height: 20rpx;" src='/images/shop/jterweimajt.png'></image>
+  </view>
+</view>
+
+
+<view class="info d_flex ai_center jc_around" style="height: 180rpx;margin: -64rpx 30rpx 0 30rpx;background-color: #ffffff;box-shadow: 0 3px 20rpx 0px #cccccc;border-radius: 8rpx;letter-spacing: 1rpx;">
+  <view class='d_flex flex_col ai_center'>
+    <text style="font-weight: bold;font-size: 32rpx;color: #000000;">23678</text>
+    <text style='font-size: 26rpx;color: #666666;padding-top: 12rpx;'>订单数</text>
+  </view>
+  <view class='d_flex flex_col ai_center'>
+    <text style="font-weight: bold;font-size: 32rpx;color: #000000;">1428</text>
+    <text style='font-size: 26rpx;color: #666666;padding-top: 12rpx;'>红包</text>
+  </view>
+</view>
+
+<!-- 商家订单 -->
+<view class='d_flex ai_center jc_between' style="margin: 20rpx 30rpx 0 30rpx;padding: 38rpx 30rpx;background-color: #ffffff;border-radius: 8rpx;color: #666666;">
+  <view style="font-size: 30rpx;">商家订单</view>
+  <view class="center" style="font-size: 26rpx;color: #aaaaaa;">
+    <text>查看订单</text>
+    <image style="margin-left: 16rpx;width: 16rpx;" mode='widthFix' src='/images/shop/jianoztu_icon.png'></image>
+  </view>
+</view>
+
+
+
+
+<view class='lists'>
+  <view class="d_flex flex_col ai_center" wx:for="{{lists}}" wx:key='index' style="padding: 38rpx 0 26rpx 0;;">
+      <image style="width: 45rpx;height: 45rpx;" src='{{item.icon}}'></image>
+      <text style='margin-top: 12rpx;font-size: 26rpx;color: #888888;'>{{item.name}}</text>
+    </view>
+</view>

@@ -1,0 +1,161 @@
+<cu-tabbar current='0'></cu-tabbar>
+
+<view class="nav d_flex ai_center" style="position: fixed;left: 0;right: 0;top: 0;">
+  <view class="center" style="width: 162rpx;">
+    <image src='/images/index/sys.png'></image>
+  </view>
+  <view class="search" style="flex: 1;background-image: url('/images/index/sous_icon.png')">
+    <input type="text" placeholder="搜索商家或名称" />
+  </view>
+  <view class="center" style="width: 84rpx;">
+    <image class="message" src='/images/index/xiaoxi_icon.png'></image>
+  </view>
+</view>
+
+<!-- 轮播图 -->
+<swiper wx:if="{{show}}" autoplay circular>
+  <swiper-item wx:for="{{banners}}" wx:key='index'>
+    <!-- <image></image> -->
+  </swiper-item>
+</swiper>
+
+<!-- 最新头条 -->
+<view wx:if="{{show}}" class="toutiao_wrapper">
+  <view class="toutiao d_flex jc_center">
+    <view class="content d_flex ai_center">
+      <view class="icon center">
+        <image mode='widthFix' src='/images/index/zuixin.png'></image>
+      </view>
+      <text style="flex: 1;">[最多20个字超不显]家里哪些电器偷偷点点点</text>
+      <view class="center more">
+        更多
+        <image style="width: 28rpx;" mode='widthFix' src='/images/index/jiantou_icon.png'></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 菜单 -->
+<view wx:if="{{show}}" class="menus">
+  <view wx:for='{{menus}}' wx:key='index' class="menu d_flex flex_col ai_center jc_center">
+    <image style="width: 88rpx;height: 88rpx;" src='{{item.icon}}'></image>
+    <text style="padding-top: 8rpx;">{{item.name}}</text>
+  </view>
+</view>
+
+<!-- 理想生活狂欢节 -->
+<image src='/images/index/img_icon.png' style='width: 750rpx;' mode='widthFix'></image>
+
+<view class="wrapper" wx:if='{{show}}'>
+  <view class="title title1 center">
+    促销产品
+  </view>
+  <view class="d_flex" style="padding: 28rpx 30rpx 0;">
+    <image src='/images/index/gengduo_icon.png' style="width: 150rpx;height: 150rpx;border: 1px solid #eeeeee;"></image>
+    <view class="d_flex flex_col" style="flex: 1;margin-left: 16rpx;border-bottom: 1px solid #eeeeee;padding-bottom: 24rpx;">
+      <view style="font-size: 24rpx;color: #666666;">
+        产品说明产品说明产品说明产品说明产品说明产品说明产品说明...
+      </view>
+      <view style="padding: 4rpx 0 2rpx 4rpx;">
+        <text style="font-size: 20rpx;color: red;">￥</text>
+        <text style='font-size: 28rpx;color: red;'>48.20</text>
+        <text style='font-size: 20rpx;color: #cccccc;text-decoration: line-through;'>￥185.00</text>
+      </view>
+      <view style="font-size: 22rpx;color: #ffffff;background: url('/images/index/bioashi_bg_icon.png') no-repeat;background-size: 202rpx 100%;padding: 2rpx 10rpx;">可用积分：36.00</view>
+    </view>
+  </view>
+  <view class="d_flex" style="padding: 28rpx 30rpx 0;">
+    <image src='/images/index/gengduo_icon.png' style="width: 150rpx;height: 150rpx;border: 1px solid #eeeeee;"></image>
+    <view class="d_flex flex_col" style="flex: 1;margin-left: 16rpx;padding-bottom: 24rpx;">
+      <view style="font-size: 24rpx;color: #666666;">
+        产品说明产品说明产品说明产品说明产品说明产品说明产品说明...
+      </view>
+      <view style="padding: 4rpx 0 2rpx 4rpx;">
+        <text style="font-size: 20rpx;color: red;">￥</text>
+        <text style='font-size: 28rpx;color: red;'>48.20</text>
+        <text style='font-size: 20rpx;color: #cccccc;text-decoration: line-through;'>￥185.00</text>
+      </view>
+      <view style="font-size: 22rpx;color: #ffffff;background: url('/images/index/bioashi_bg_icon.png') no-repeat;background-size: 202rpx 100%;padding: 2rpx 10rpx;">可用积分：36.00</view>
+    </view>
+  </view>
+</view>
+
+<!-- 红包兑换 -->
+<view wx:if="{{show}}" class="wrapper">
+  <view class="title title2 center">
+    红包兑换
+  </view>
+  <view style='display: grid;grid-template-columns: 1fr 1fr 1fr;padding: 0 30rpx;'>
+    <view wx:for="{{goods}}" wx:key='index' style="padding: 20rpx 0 0;" class="d_flex flex_col">
+      <image style="width: 200rpx;height: 200rpx;border: 1px solid #eeeeee;" src='{{item.thumb}}'></image>
+      <view class="d_flex ai_center jc_between" style="font-size: 28rpx;color: red;padding-top: 8rpx;">
+        <view class='center'>
+          <image src='/images/index/bgb_icon.png' style="width: 24rpx;height: 30rpx;margin-right: 6rpx;"></image>
+          2000
+        </view>
+        <view style="padding-right: 30rpx;font-size: 20rpx;">+0.01元</view>
+      </view>
+      <view style='font-size: 22rpx;color: #cccccc;text-decoration: line-through;'>市场价：￥185.00</view>
+      <view style="color: #333333;font-size: 24rpx;padding-top: 8rpx;">{{item.name}}</view>
+    </view>
+  </view>
+</view>
+
+<!-- 精品推荐 -->
+<view wx:if="{{show}}" class="wrapper">
+  <view class="title title3 center">
+    精品推荐
+  </view>
+  <view style='display: grid;grid-template-columns: 1fr 1fr;padding: 0 30rpx;'>
+    <view wx:for="{{4}}" wx:key='index' style="padding: 20rpx 0 0;" class="d_flex flex_col">
+      <view class="center" style="width: 320rpx;height: 320rpx;border: 1px solid #eeeeee;">
+        <image style="width: 300rpx;height: 300rpx;" src='/images/index/hongbaosc_icon.png'></image>
+      </view>
+      <view class="d_flex ai_center" style="font-size: 28rpx;color: red;padding-top: 8rpx;">
+          <text style='font-size: 20rpx;'>￥</text>
+          <text>7980.00</text>
+          <view style="padding-left: 15rpx;font-size: 20rpx;text-decoration: line-through;color: #cccccc;">+0.01元</view>
+      </view>
+      <view style="font-size: 22rpx;color: #ffffff;background: url('/images/index/bsbg_icon.png') no-repeat;background-size: 188rpx 32rpx;padding-left: 6rpx;">可用积分：36.00</view>
+      <view style="color: #333333;font-size: 24rpx;padding-top: 12rpx;">iPhone X手机...</view>
+    </view>
+  </view>
+</view>
+
+
+<view class="wrapper" style="position: relative;">
+  <view class="title title4 center">
+    推荐商家
+  </view>
+  <view class="center" style='position: absolute;right: 30rpx;top: 50rpx;;font-size: 28rpx;color: #999999;'>
+    更多
+    <image style="width: 28rpx;" mode='widthFix' src='/images/index/jiantou_icon.png'></image>
+  </view>
+  <!-- 列表 -->
+  <view wx:for="{{3}}" wx:key='index' class="d_flex" style="padding: 28rpx 30rpx 0;">
+    <image src='/images/index/gengduo_icon.png' style="width: 150rpx;height: 150rpx;border: 1px solid #eeeeee;"></image>
+    <view class="d_flex flex_col" style="flex: 1;margin-left: 16rpx;border-bottom: 1px solid #eeeeee;padding-bottom: 24rpx;">
+      <view style="font-size: 26rpx;color: #666666;position: relative;">
+        心扉假日酒店(火车站店)
+        <view style="position: absolute;right: 0;top: -30rpx;align-items: flex-end;" class="d_flex flex_col">
+          <image style="width: 60rpx;" mode='widthFix' src='/images/index/bsxx_icon.png'></image>
+          <image style="width: 90rpx;margin-top: 8rpx;" mode='widthFix' src='/images/index/xx_icon.png'></image>
+        </view>
+      </view>
+      <view style="height:88rpx;padding-top: 12rpx;font-size: 24rpx;color: #cccccc;">
+      周二会员日五折
+      </view>
+      <view class="d_flex ai_center jc_between" style="font-size: 22rpx;color: #aaaaaa;">
+        <text>北京市大兴区黄村西大街20字以内...</text>
+        <text>1.7km</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='center' 
+  style='color: #999999;font-size: 28rpx;padding: 30rpx 0 2rpx;'>没有更多了</view>
+<view style="width: 320rpx;margin: 0 auto;color: #eeeeee;" class='d_flex ai_center jc_between'>
+  <text>——</text>
+  <text>——</text>
+</view>

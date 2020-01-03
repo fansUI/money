@@ -1,0 +1,136 @@
+page {
+  padding-bottom: 160rpx;
+}
+
+.nav {
+  height: 92rpx;
+  padding-bottom: 12rpx;
+  background-color: #fff;
+}
+
+.nav image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.nav .search {
+  background-color: #eee;
+  border-radius: 40rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+  padding-left: 24rpx;
+  display: flex;
+  align-items: center;
+  background-size: 38rpx 38rpx;
+  background-repeat: no-repeat;
+  background-position: 450rpx center;
+}
+
+.nav image.message {
+  width: 38rpx;
+  height: 38rpx;
+}
+
+swiper {
+  height: 328rpx;
+  background-color: red;
+}
+
+.toutiao_wrapper {
+  width: 750rpx;
+  height: 110rpx;
+  overflow: hidden;
+  margin-top: -50rpx;
+  border-bottom: 1px solid #eee;
+}
+
+.toutiao {
+  width: 6750rpx;
+  height: 6750rpx;
+  border-radius: 3375rpx;
+  background-color: #fff;
+  margin-left: -3000rpx;
+}
+
+.toutiao .content {
+  width: 750rpx;
+  height: 100rpx;
+  margin-top: 10rpx;
+}
+
+.content .icon {
+  width: 172rpx;
+  border-right: 1px solid #eee;
+}
+
+.content .icon image {
+  width: 132rpx;
+}
+
+.content text {
+  font-size: 24rpx;
+  text-indent: 20rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #666;
+}
+
+.content .more {
+  width: 120rpx;
+  color: #999;
+  font-size: 28rpx;
+}
+
+.menus {
+  padding-top: 26rpx;
+  padding-bottom: 12rpx;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 24rpx;
+  color: #666;
+}
+
+.menus .menu {
+  height: 156rpx;
+}
+
+.title {
+  padding: 50rpx 0 12rpx;
+  font-size: 30rpx;
+  color: #000;
+  position: relative;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  margin-left: -67rpx;
+  top: 64rpx;
+  width: 134rpx;
+  height: 14rpx;
+  opacity: 0.2;
+  border-radius: 7rpx;
+}
+
+.title1::after {
+  background-color: purple;
+}
+
+.title2::after {
+  background-color: red;
+}
+
+.title3::after {
+  background-color: yellow;
+}
+
+.title4::after {
+  background-color: #00d073;
+}
+
+.title4 {
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid #eee;
+}

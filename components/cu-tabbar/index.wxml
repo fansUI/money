@@ -1,0 +1,14 @@
+<image class="bg" src='/images/tab/bg_icon.png' mode='widthFix'></image>
+<view class="tabbar">
+  <view wx:for="{{list}}" wx:key='index' data-index='{{index}}' bindtap='changeTabbar'>
+    <block wx:if='{{index === 2}}'>
+      <image class="icon" src='/images/tab/hongbao_icon.png'></image>
+    </block>
+    <block wx:else>
+      <image wx:if="{{ current!==index }}" src='{{item.iconPath}}'></image>
+    <image wx:else src='{{item.selectedIconPath}}'></image>
+    <text wx:if="{{ current!==index }}" style="color: #B0AFB0;">{{item.text}}</text>
+    <text wx:else style="color: #FF3E00;">{{item.text}}</text>
+    </block>
+  </view>
+</view>

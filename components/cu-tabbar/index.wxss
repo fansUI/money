@@ -1,0 +1,39 @@
+.bg{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 998;
+    width: 750rpx;
+}
+.tabbar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    width: 750rpx;
+    height: 128rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tabbar view{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tabbar image{
+    width: 50rpx;
+    height: 50rpx;
+}
+.tabbar text{
+    margin-top: 12rpx;
+    font-size: 24rpx;
+}
+.tabbar image.icon{
+    position: absolute;
+    left: 50%;
+    bottom: 50rpx;
+    transform: translateX(-50%);
+    width: 88rpx;
+    height: 88rpx;
+}

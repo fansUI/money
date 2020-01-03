@@ -1,0 +1,12 @@
+<view style="padding: 0 30rpx;">
+    <view wx:for="{{3}}" wx:key='index' style="padding: 20rpx 0;border-bottom: 1px solid #f7f7f7;">
+        <view class="d_flex ai_center jc_between">
+            <view style="font-size: 32rpx;color: #555555;">红包转出</view>
+            <view style="font-size: 38rpx;color: red;font-weight: bold;">-50.0</view>
+        </view>
+        <view style="margin-top: 12rpx;font-size: 28rpx;color: #999999;" class="d_flex ai_center jc_between">
+            <view>转出给【ID...】</view>
+            <view>2019-10-21 18:28</view>
+        </view>
+    </view>
+</view>

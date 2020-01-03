@@ -1,0 +1,6 @@
+<view style="height: {{CustomBar}}px;position: fixed;left:0;right:0;top:0;">
+  <image bindtap='back' style="padding-top: {{StatusBar}}px;width: 38rpx;height: 38rpx;position: absolute;left: 30rpx;top: 50%;transform: translateY(-50%);" src='{{back}}'></image>
+  <view style="color: {{color}};padding-top: {{StatusBar}}px;position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);">
+    {{title}}
+  </view>
+</view>

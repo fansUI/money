@@ -1,0 +1,24 @@
+<view class="container">
+    <view style="padding: 30rpx 0;border-bottom: 1px solid #eeeeee;" wx:for="{{3}}" wx:key='index' class="d_flex">
+        <image style="margin-right: 20rpx;width: 128rpx;height: 128rpx;border-radius: 16rpx;" src='/images/orderList/img_icon.png'></image>
+        <view style="flex: 1;font-size: 26rpx;color: #bbbbbb;line-height: 1.6;">
+            <view style="font-size: 30rpx;color: #555555;" class="d_flex ai_center jc_between">
+                <view>玻璃胶</view>
+                <view style="font-size: 24rpx;color: #999999;">2019-10-09 16:21:21</view>
+            </view>
+            <view>订单编号：20199389238289323</view>
+            <view  class="d_flex ai_center jc_between">
+                <view style="flex: 1;">单价：66</view>
+                <view style="flex: 1;">数量：6</view>
+                <view style="flex: 1;">总额：396</view>
+            </view>
+            <view class="d_flex ai_center jc_between">
+                <view style="flex: 1;">积分：0.9</view>
+                <view style="flex: 1;">服务费：1</view>
+                <view style="flex: 1;"></view>
+            </view>
+            <view>商家手机号：1627172122</view>
+        </view>
+    </view>
+    
+</view>

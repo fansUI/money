@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/business/index",
+    "pages/money/index",
+    "pages/shop/index",
+    "pages/mine/index",
+    "pages/orderList/index",
+    "pages/about/index",
+    "pages/plan/index",
+    "pages/send/index",
+    "pages/moneyShop/index",
+    "pages/shopManage/index",
+    "pages/pwd/index",
+    "pages/editPwd/index",
+    "pages/account/index",
+    "pages/feedback/index",
+    "pages/invite/index",
+    "pages/info/index",
+    "pages/infomation/index",
+    "pages/news/index",
+    "pages/myMoney/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF3E00",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "cu-tabbar": "/components/cu-tabbar/index",
+    "cu-custom": "/components/cu-custom/index"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

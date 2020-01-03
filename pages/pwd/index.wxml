@@ -1,0 +1,9 @@
+<view class="d_flex ai_center jc_between" style="font-size: 32rpx;color: 888888;border-bottom: 1px solid #eeeeee;padding: 30rpx 0">
+    <text>修改登录密码</text>
+    <image src='/images/pwd/jiantou_icon.png' style="width: 28rpx;height: 32rpx;"></image>
+</view>
+
+<view class="d_flex ai_center jc_between" style="font-size: 32rpx;color: 888888;border-bottom: 1px solid #eeeeee;padding: 30rpx 0">
+    <text>修改支付密码</text>
+    <image src='/images/pwd/jiantou_icon.png' style="width: 28rpx;height: 32rpx;"></image>
+</view>

@@ -1,0 +1,20 @@
+<view class="d_flex ai_center" style="border-bottom: 1px solid #eeeeee;border-top: 1px solid #eeeeee;padding: 22rpx 0;">
+    <view style="padding-right: 12rpx;">验证码</view>
+    <input style="flex: 1;" type="text" />
+    <view class="center" style="width: 200rpx;font-size: 30rpx;color: #3FCB00;background: url('/images/editPwd/kuankuang_icon.png');background-size: 100% 100%;border-radius: 33rpx;height: 66rpx;">获取验证码</view>
+</view>
+
+<view class="d_flex ai_center" style="border-bottom: 1px solid #eeeeee;padding: 32rpx 0;">
+    <view style="padding-right: 12rpx;">新密码</view>
+    <input style="flex: 1;" type="text" />
+</view>
+
+<view class="d_flex ai_center" style="border-bottom: 1px solid #eeeeee;padding: 32rpx 0;">
+    <view style="padding-right: 12rpx;">确认密码</view>
+    <input style="flex: 1;" type="text" />
+    <image style="width: 32rpx;height: 32rpx;margin-right: 12rpx;" src='/images/editPwd/yanj_icon.png'></image>
+</view>
+
+<view class="center"
+    style="font-size: 30rpx;margin: 80rpx 0;color: #ffffff;height: 100rpx;background: url('/images/shopManage/button_icon.png');background-size: 100% 100%;">
+    确定</view>

@@ -1,0 +1,36 @@
+<view style="padding: 20rpx 0 10rpx;font-size: 32rpx;color: #555555;" class="d_flex ai_center jc_between">
+    <view>意向金余额</view>
+    <view style="color: #44C200;font-size: 38rpx;font-weight: bold;">50.0</view>
+</view>
+<view style="font-size: 28rpx;color: #aaaaaa;padding: 0 0 20rpx;border-bottom: 1px solid #fafafa;" class="d_flex ai_center jc_between">
+    <view>累计意向金充值总额</view>
+    <view>1000.0</view>
+</view>
+<view style="font-size: 28rpx;color: #aaaaaa;padding: 20rpx 0 20rpx;border-bottom: 1px solid #eeeeee;" class="d_flex ai_center jc_between">
+    <view>累计意向金上交总额</view>
+    <view>1000.0</view>
+</view>
+<view style="font-size: 32rpx;color: #555555;padding: 30rpx 0;border-bottom: 1px solid #eeeeee;" class="d_flex ai_center jc_between">
+    <view>做单余额</view>
+    <view style="font-weight: bold;font-size: 38rpx;color: red;">100.0</view>
+</view>
+<view  style="font-size: 32rpx;color: #555555;padding: 30rpx 0 20rpx;border-bottom: 1px solid #f9f9f9;" class="d_flex ai_center jc_between">
+    <view>订单贷款剩余额度</view>
+    <view style="font-weight: bold;font-size: 38rpx;color: red;">100.0</view>
+</view>
+<view style="font-size: 28rpx;color: #aaaaaa;padding: 20rpx 0 20rpx;border-bottom: 1px solid #eeeeee;" class="d_flex ai_center jc_between">
+    <view>订单已贷款额度</view>
+    <view>1000.0</view>
+</view>
+<view style="font-size: 32rpx;color: #555555;padding: 30rpx 0 20rpx;border-bottom: 1px solid #eeeeee;"  class="d_flex ai_center jc_between">
+    <view>红包当前余额</view>
+    <view>100.0</view>
+</view>
+<view  style="font-size: 28rpx;color: #aaaaaa;padding: 20rpx 0;border-bottom: 1px solid #f1f1f1;" class="d_flex ai_center jc_between">
+    <view>红包累计金额</view>
+    <view style="color: #44C200;font-size: 38rpx;font-weight: bold;">1000.0</view>
+</view>
+
+<view class="center"
+    style="font-size: 30rpx;margin-top: 108rpx;color: #ffffff;height: 100rpx;background: url('/images/shopManage/button_icon.png');background-size: 100% 100%;">
+    我的账单</view>

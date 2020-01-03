@@ -1,0 +1,13 @@
+<cu-custom></cu-custom>
+
+<view style="height: 255rpx;background-image: url('/images/about/About_bg_icon.png');background-size: 100% 100%;">
+</view>
+
+
+<view style="padding: 50rpx;">
+    <view style="padding: 30rpx 0;border-bottom: 1px solid #eeeeee;" wx:for="{{lists}}" wx:key='index' class="d_flex ai_center jc_between">
+        <view style="font-size: 30rpx;color: #333333;">{{item.name}}</view>
+        <view style="font-size: 28rpx;color: #888888;">{{item.info}}</view>
+    </view>
+    
+</view>

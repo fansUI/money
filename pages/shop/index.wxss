@@ -1,0 +1,26 @@
+page{
+  background-color: #f7f7f7;
+}
+.info{
+  position: relative;
+}
+.info::after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 1px;
+  height: 50rpx;
+  background-color: #eeeeee;
+}
+
+.lists {
+  margin: 20rpx 30rpx 0 30rpx;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  box-shadow: 0 0 60rpx 0 #eeeeee;
+  border-radius: 8rpx;
+  padding-bottom: 38rpx;
+}

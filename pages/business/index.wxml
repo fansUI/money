@@ -1,0 +1,87 @@
+<cu-tabbar current='1'></cu-tabbar>
+
+
+
+<!-- 轮播图 -->
+<swiper indicator-dots indicator-dots-color='red' autoplay circular style="background: #ffffff;">
+  <swiper-item wx:for="{{5}}" wx:key='index'>
+    <image style="width: 750rpx;height: 272rpx;" src='/images/business/mer_bg_icon.png'></image>
+  </swiper-item>
+</swiper>
+
+ <view class="content d_flex ai_center" style="margin-top: -30rpx;font-size: 28rpx;color: #777777;">
+      <view class="center" style='flex: 1;'>
+        <image src='/images/business/mer_sjfl_icon.png' style="width: 32rpx;height: 32rpx;margin-right: 14rpx;"></image>
+        <text>商家分类</text>
+        <image src='/images/business/mei_sjx_icon.png' style="margin-left: 6rpx;width: 14rpx;height: 10rpx;"></image>
+      </view>
+      <view class="center" style='flex: 1;'>
+        <image style="width: 32rpx;height: 32rpx;margin-right: 14rpx;" src='/images/business/mer_weizhi_icon.png'></image>
+        <text>位置定位</text>
+      </view>
+    </view>
+
+
+
+
+
+<view class="d_flex ai_center jc_between" style='font-size: 22rpx;color: #666666;padding: 12rpx 30rpx;background-color: #f7f7f7;'>
+  <view>已入驻商家为12343家</view>
+  <view class="center">
+    <text>[北京市]大兴区永定南里</text>
+    <image src='/images/business/mer_sx_icon.png' style="margin-left: 20rpx;width: 30rpx;height: 30rpx;"></image>
+  </view>
+</view>
+
+
+<view class="wrapper" style="position: relative;">
+  <view style="padding: 30rpx;border-bottom: 1px solid #eeeeee;font-size: 30rpx;color: #666666">
+    本地商家
+  </view>
+  <!-- 列表 -->
+  <view wx:for="{{3}}" wx:key='index' class="d_flex" style="padding: 28rpx 30rpx 0;">
+    <image src='/images/index/gengduo_icon.png' style="width: 150rpx;height: 150rpx;border: 1px solid #eeeeee;"></image>
+    <view class="d_flex flex_col {{index!=2 && 'border'}}" style="flex: 1;margin-left: 16rpx;padding-bottom: 24rpx;">
+      <view style="font-size: 26rpx;color: #666666;position: relative;">
+        心扉假日酒店(火车站店)
+        <view style="position: absolute;right: 0;top: -30rpx;align-items: flex-end;" class="d_flex flex_col">
+          <image style="width: 60rpx;" mode='widthFix' src='/images/index/bsxx_icon.png'></image>
+          <image style="width: 90rpx;margin-top: 8rpx;" mode='widthFix' src='/images/index/xx_icon.png'></image>
+        </view>
+      </view>
+      <view style="height:88rpx;padding-top: 12rpx;font-size: 24rpx;color: #cccccc;">
+      周二会员日五折
+      </view>
+      <view class="d_flex ai_center jc_between" style="font-size: 22rpx;color: #aaaaaa;">
+        <text>北京市大兴区黄村西大街20字以内...</text>
+        <text>1.7km</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="wrapper" style="position: relative;">
+  <view style="padding: 30rpx;border-bottom: 1px solid #eeeeee;font-size: 30rpx;color: #666666">
+    商铺推荐
+  </view>
+  <!-- 列表 -->
+  <view wx:for="{{3}}" wx:key='index' class="d_flex" style="padding: 28rpx 30rpx 0;">
+    <image src='/images/index/gengduo_icon.png' style="width: 150rpx;height: 150rpx;border: 1px solid #eeeeee;"></image>
+    <view class="d_flex flex_col {{index!=2 && border}}" style="flex: 1;margin-left: 16rpx;padding-bottom: 24rpx;">
+      <view style="font-size: 26rpx;color: #666666;position: relative;">
+        心扉假日酒店(火车站店)
+        <view style="position: absolute;right: 0;top: -30rpx;align-items: flex-end;" class="d_flex flex_col">
+          <image style="width: 60rpx;" mode='widthFix' src='/images/index/bsxx_icon.png'></image>
+          <image style="width: 90rpx;margin-top: 8rpx;" mode='widthFix' src='/images/index/xx_icon.png'></image>
+        </view>
+      </view>
+      <view style="height:88rpx;padding-top: 12rpx;font-size: 24rpx;color: #cccccc;">
+      周二会员日五折
+      </view>
+      <view class="d_flex ai_center jc_between" style="font-size: 22rpx;color: #aaaaaa;">
+        <text>北京市大兴区黄村西大街20字以内...</text>
+        <text>1.7km</text>
+      </view>
+    </view>
+  </view>
+</view>
