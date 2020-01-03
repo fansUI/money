@@ -1,0 +1,84 @@
+<view class="commodity_1">
+  <view class="commmodity_content">
+    <image bindtap="commodity_img_3_click" src="{{commodity_img}}" style=" width:750rpx;height:625rpx;" mode="aspectFit" border="0" class="commodity_img"></image>
+    <view class="commodity_9">
+      <text decode="{{true}}" class="commodity_name">{{commodity_name}}</text>
+      <text decode="{{true}}" class="commodity_price">{{commodity_price}}</text>
+      <view class="commodity_10">
+        <image bindtap="commodity_14_14_click" src="/image/hongbao_icon.png" style=" width:22rpx;height:25rpx;" mode="aspectFit" border="0" class="commodity_14"></image>
+        <text decode="{{true}}" class="kyred">可用红包</text>
+        <text decode="{{true}}" class="commodity_hb">{{commodity_hb}}</text>
+      </view>
+      <text decode="{{true}}" class="commodity_yj">{{commodity_yj}}</text>
+      <view class="commodity_17">
+        <image bindtap="commodity_18_18_click" src="/image/xianggou_icon.png" style=" width:28rpx;height:34rpx;" mode="aspectFit" border="0" class="commodity_18"></image>
+        <text decode="{{true}}" class="commodity_19">限购:1件</text>
+        <text decode="{{true}}" class="commodity_37">已拼团(售出):</text>
+        <text decode="{{true}}" class="shouchu">{{shouchu}}</text>
+      </view>
+    </view>
+    <view class="commodity_21">
+      <view class="commodity_22">
+        <text decode="{{true}}" class="commodity_23">商品运费:</text>
+        <text decode="{{true}}" class="carriage">{{carriage}}</text>
+      </view>
+    </view>
+    <view class="commodity_25">
+      <view class="commodity_26">
+        <text decode="{{true}}" class="commodity_27">选择规格:</text>
+        <text decode="{{true}}" class="commodity_28">选择颜色/规格</text>
+        <image bindtap="commodity_29_29_click" src="/image/jiantou_icon.png" style=" width:30rpx;height:29rpx;" mode="aspectFit" border="0" class="commodity_29"></image>
+      </view>
+    </view>
+    <view class="commodity_30">
+      <text decode="{{true}}" class="commodity_31">商品详情:</text>
+    </view>
+    <view class="commodity_32">
+      <view class="commodity_33">
+        <text decode="{{true}}" class="ProductDetils">{{ProductDetils}}</text>
+      </view>
+    </view>
+    <view class="commodity_35">
+      <image bindtap="description_36_click" src="{{description}}" style=" width:691rpx;height:167rpx;" mode="aspectFit" border="0" class="description"></image>
+    </view>
+  </view>
+  <view class="commodity_39">
+    <text decode="{{true}}" class="commodity_40">为您推荐:</text>
+  </view>
+  <view class="red">
+    <view wx:for="{{list_red}}" wx:key="{{index}}">
+
+      <view class="red_sp">
+        <image bindtap="sp_img_53_click" src="{{item.sp_img}}" style=" width:208rpx;height:209rpx;" mode="aspectFit" border="0" class="sp_img"></image>
+        <view class="commodity_54">
+          <image bindtap="commodity_55_55_click" src="{{item.commodity_55}}" style=" width:25rpx;height:31rpx;" mode="aspectFit" border="0" class="commodity_55"></image>
+          <text decode="{{true}}" class="scj">{{item.scj}}</text>
+          <text decode="{{true}}" class="sp_name">{{item.sp_name}}</text>
+          <text decode="{{true}}" class="sp_price">{{item.sp_price}}</text>
+          <text decode="{{true}}" class="scj_price">{{item.scj_price}}</text>
+          <text decode="{{true}}" class="sp_jl">{{item.sp_jl}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="commodity_61">
+    <view class="commodity_62">
+      <view class="commodity_63">
+        <view class="commodity_64">
+          <image bindtap="commodity_65_65_click" src="/image/shouye_icon.png" style=" width:60rpx;height:38rpx;" mode="aspectFit" border="0" class="commodity_65"></image>
+          <text decode="{{true}}" class="commodity_66">首页</text>
+        </view>
+      </view>
+      <view class="commodity_70">
+        <view class="commodity_71">
+          <image bindtap="commodity_72_72_click" src="/image/kefu_icon.png" style=" width:60rpx;height:38rpx;" mode="aspectFit" border="0" class="commodity_72"></image>
+          <text decode="{{true}}" class="commodity_73">客服</text>
+        </view>
+      </view>
+      <view class="commodity_76">
+        <text decode="{{true}}" class="commodity_77">立即购买</text>
+      </view>
+    </view>
+  </view>
+</view>
+

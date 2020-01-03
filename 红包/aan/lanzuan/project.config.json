@@ -1,0 +1,386 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": false,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"nodeModules": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.4",
+	"appid": "wx27416db6d8d90886",
+	"projectname": "tabbarDemo",
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/mine/mine",
+					"pathName": "pages/mine/mine",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/merchat/merchat",
+					"pathName": "pages/merchat/merchat",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/store/store",
+					"pathName": "pages/store/store",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/shopadmin/shopadmin",
+					"pathName": "pages/shopadmin/shopadmin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/order/order",
+					"pathName": "pages/order/order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/order/order",
+					"pathName": "pages/order/order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/send/send",
+					"pathName": "pages/send/send",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/home",
+					"pathName": "pages/home/home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/bonusplan/bonusplan",
+					"pathName": "pages/bonusplan/bonusplan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/redrecord/redrecord",
+					"pathName": "pages/redrecord/redrecord",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/confirm/confirm",
+					"pathName": "pages/confirm/confirm",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/failure/failure",
+					"pathName": "pages/failure/failure",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/information/information",
+					"pathName": "pages/information/information",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/single/single",
+					"pathName": "pages/single/single",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/confirm/confirm",
+					"pathName": "pages/confirm/confirm",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/commodity/commodity",
+					"pathName": "pages/commodity/commodity",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/gathering/gathering",
+					"pathName": "pages/gathering/gathering",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/agency/agency",
+					"pathName": "pages/agency/agency",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/messages/messages",
+					"pathName": "pages/messages/messages",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mestore/mestore",
+					"pathName": "pages/mestore/mestore",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/redpacket/redpacket",
+					"pathName": "pages/redpacket/redpacket",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/team/team",
+					"pathName": "pages/team/team",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/messages/messages",
+					"pathName": "pages/messages/messages",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/newsteends/newsteends",
+					"pathName": "pages/newsteends/newsteends",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/newspage/newspage",
+					"pathName": "pages/newspage/newspage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/feedback/feedback",
+					"pathName": "pages/feedback/feedback",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/account/account",
+					"pathName": "pages/account/account",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/address/address",
+					"pathName": "pages/address/address",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/friend/friend",
+					"pathName": "pages/friend/friend",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/install/install",
+					"pathName": "pages/install/install",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/address/address",
+					"pathName": "pages/address/address",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/circularize/circularize",
+					"pathName": "pages/circularize/circularize",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/address/address",
+					"pathName": "pages/address/address",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addres/addres",
+					"pathName": "pages/addres/addres",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/merchantmove/merchantmove",
+					"pathName": "pages/merchantmove/merchantmove",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/merchantmoves/merchantmoves",
+					"pathName": "pages/merchantmoves/merchantmoves",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/merchantmovest/merchantmovest",
+					"pathName": "pages/merchantmovest/merchantmovest",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/middle/middle",
+					"pathName": "pages/middle/middle",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/changepassword/changepassword",
+					"pathName": "pages/changepassword/changepassword",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/gathering/gathering",
+					"pathName": "pages/gathering/gathering",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/red/red",
+					"pathName": "pages/red/red",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/allorder/allorder",
+					"pathName": "pages/allorder/allorder",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/account/account",
+					"pathName": "pages/account/account",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/allorder/allorder",
+					"pathName": "pages/allorder/allorder",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/merchantmoves/merchantmoves",
+					"pathName": "pages/merchantmoves/merchantmoves",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addres/addres",
+					"pathName": "components",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/order_confirm/index",
+					"pathName": "pages/order_confirm/index",
+					"scene": null
+				}
+			]
+		}
+	}
+}

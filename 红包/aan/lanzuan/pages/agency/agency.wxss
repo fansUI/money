@@ -1,0 +1,30 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+ .agency_2{width:750rpx;height:1206rpx;padding:0rpx;clear:both;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .agency_2 .agency_3{width:750rpx;height:188rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .agency_2 .agency_3 .agency_5{width:109rpx;height:152rpx;padding:0rpx;margin-top:36rpx;margin-left:67rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .agency_2 .agency_3 .agency_5 .agency_6{width:109rpx;height:59rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:57rpx; line-height:59rpx;}
+ .agency_2 .agency_3 .agency_5 .agency_7{width:109rpx;height:28rpx;padding:0rpx;clear:both;margin-top:21rpx;margin-left:0rpx;float:left;text-align:center; border-radius:0rpx; color:#808080;font-size:23rpx; line-height:28rpx;}
+ .agency_2 .agency_3 .agency_5 .hyzs{width:109rpx;height:29rpx;padding:0rpx;clear:both;margin-top:13rpx;margin-left:0rpx;float:left;text-align:center; border-radius:0rpx; color:#000000;font-size:26rpx; line-height:29rpx;}
+ .agency_2 .agency_3 .agency_9{width:109rpx;height:152rpx;padding:0rpx;margin-top:36rpx;margin-left:145rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .agency_2 .agency_3 .agency_9 .agency_10{width:109rpx;height:59rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:57rpx; line-height:59rpx;}
+ .agency_2 .agency_3 .agency_9 .agency_11{width:109rpx;height:28rpx;padding:0rpx;clear:both;margin-top:21rpx;margin-left:0rpx;float:left;text-align:center; border-radius:0rpx; color:#808080;font-size:23rpx; line-height:28rpx;}
+ .agency_2 .agency_3 .agency_9 .yxhy{width:109rpx;height:29rpx;padding:0rpx;clear:both;margin-top:13rpx;margin-left:0rpx;float:left;text-align:center; border-radius:0rpx; color:#000000;font-size:26rpx; line-height:29rpx;}
+ .agency_2 .agency_3 .agency_13{width:109rpx;height:152rpx;padding:0rpx;margin-top:36rpx;margin-left:135rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .agency_2 .agency_3 .agency_13 .agency_14{width:109rpx;height:59rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:57rpx; line-height:59rpx;}
+ .agency_2 .agency_3 .agency_13 .agency_15{width:109rpx;height:28rpx;padding:0rpx;clear:both;margin-top:21rpx;margin-left:0rpx;float:left;text-align:center; border-radius:0rpx; color:#808080;font-size:23rpx; line-height:28rpx;}
+ .agency_2 .agency_3 .agency_13 .ddze{width:109rpx;height:29rpx;padding:0rpx;clear:both;margin-top:13rpx;margin-left:0rpx;float:left;text-align:center; border-radius:0rpx; color:#000000;font-size:26rpx; line-height:29rpx;}
+ .agency_2 .agency_4{width:750rpx;height:121rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-bottom-color:#f6f6f6; border-bottom-width:1rpx; border-bottom-style:solid; border-radius:0rpx;font-size:12rpx;}
+ .agency_2 .agency_4 .agency_17{width:698rpx;height:37rpx;padding:0rpx;margin-top:52rpx;margin-left:25rpx;float:left;text-align:left; border-radius:0rpx;font-size:35rpx; line-height:37rpx;}
+ .agency_2 .agency_4 .agency_17 .agency_18{width:210rpx;height:37rpx;padding:0rpx;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx; color:#000000;font-size:31rpx; line-height:37rpx;}
+ .agency_2 .agency_4 .agency_17 .agency_19{width:210rpx;height:37rpx;padding:0rpx;margin-top:0rpx;margin-left:278rpx;float:left;text-align:left; border-radius:0rpx; color:#000000;font-size:31rpx; line-height:37rpx;}
+ .agency_2 .agency_21{width:750rpx;height:817rpx;padding:0rpx;clear:both;margin-top:19rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .agency_2 .agency_21 .agency_22{width:750rpx;position: relative;height:146rpx;padding:0rpx;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-bottom-color:#f6f6f6; border-bottom-width:1rpx; border-bottom-style:solid; border-radius:0rpx;font-size:101rpx;}
+ .agency_2 .agency_21 .agency_22 .dd_img{width:100rpx;height:100rpx;padding:0rpx;margin-top:13rpx;margin-left:33rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-color:#e1e1e1; border-width:1rpx; border-style:solid; border-radius:10rpx; border-top-left-radius:10rpx; border-bottom-left-radius:10rpx; border-top-right-radius:10rpx; border-bottom-right-radius:10rpx;font-size:100rpx; line-height:100rpx;}
+ .agency_2 .agency_21 .agency_22 .dd_name{width:317rpx;height:30rpx;padding:0rpx;margin-top:20rpx;margin-left:162rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#000000;font-size:26rpx; line-height:30rpx;}
+ .agency_2 .agency_21 .agency_22 .dd_price{width:261rpx;height:27rpx;padding:0rpx;margin-top:77rpx;margin-left:162rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#ff8040;font-size:28rpx; line-height:27rpx;}
+ .agency_2 .agency_21 .agency_22 .dd_time{width:251rpx;height:25rpx;padding:0rpx;margin-top:79rpx;margin-left:472rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:center; border-radius:0rpx; color:#808080;font-size:23rpx; line-height:25rpx;}

@@ -1,0 +1,11 @@
+<view class="install_11">
+    <view bindtap="install_12_12_click" class="install_12">      <view bindtap="install_13_13_click" class="install_13">        <text bindtap="install_14_14_click" decode="{{true}}" class="install_14">关于我们</text>
+        <image bindtap="install_15_15_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/install/images/install_15_15.jpg" style=" width:23rpx;height:31rpx;"  mode="scaleToFill" border="0"    class="install_15"></image>
+</view>
+</view>
+    <view bindtap="install_16_16_click" class="install_16">      <view class="install_17">
+        <text decode="{{true}}" class="install_18">修改支付密码</text>
+        <image bindtap="install_19_19_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/install/images/install_19_19.jpg" style=" width:21rpx;height:32rpx;"  mode="scaleToFill" border="0"    class="install_19"></image>
+      </view>
+</view>
+  </view>

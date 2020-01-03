@@ -1,0 +1,35 @@
+<view class="team_1">
+    <view class="team_3">
+      <view class="team_5">
+        <text decode="{{true}}" class="team_6">佣金总额</text>
+        <text decode="{{true}}" class="team_9">团队人数</text>
+      </view>
+      <text decode="{{true}}" class="yjze">{{yjze}}</text>
+      <text decode="{{true}}" class="tdrs">{{tdrs}}</text>
+    </view>
+    <view class="team_35">
+      <view class="team_36">
+        <text decode="{{true}}" class="team_37">推荐人ID</text>
+        <text decode="{{true}}" class="td_id">{{td_id}}</text>
+      </view>
+    </view>
+    <view class="team_15">
+      <text decode="{{true}}" class="team_25">分享佣金</text>
+      <view class="team_26">
+      </view>
+    </view>
+    <view class="team_18">
+    <view wx:for="{{list_18}}" wx:key="{{index}}">
+
+      <view class="team_19">
+        <image bindtap="team_20_20_click" src="{{item.team_20}}" style=" width:35rpx;height:42rpx;"  mode="aspectFit" border="0"    class="team_20"></image>
+        <view class="team_28">
+          <text decode="{{true}}" class="team_29">{{item.team_29}}</text>
+          <text decode="{{true}}" class="yj_id">{{item.yj_id}}</text>
+        </view>
+        <text decode="{{true}}" class="td_time">{{item.td_time}}</text>
+        <text decode="{{true}}" class="td_rde">{{item.td_rde}}</text>
+      </view>
+    </view>
+</view>
+  </view>

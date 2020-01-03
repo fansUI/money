@@ -1,0 +1,25 @@
+<view class="home_18">
+    <view class="home_19">
+      <image bindtap="home_20_20_click" src="/image/About_bg_icon.png" style=" width:750rpx;height:246rpx;"  mode="scaleToFill" border="0"    class="home_20"></image>
+    </view>
+    <view class="home_3">
+      <view class="home_7">
+        <view class="home_4">
+          <text decode="{{true}}" class="home_5">所属权</text>
+          <text decode="{{true}}" class="ssq">{{ssq}}</text>
+        </view>
+        <view class="home_8">
+          <text decode="{{true}}" class="home_9">联系邮箱</text>
+          <text decode="{{true}}" class="emlill">{{emlill}}</text>
+        </view>
+        <view class="home_11">
+          <text decode="{{true}}" class="home_12">客服电话</text>
+          <text decode="{{true}}" class="tell">{{tell}}</text>
+        </view>
+        <view class="home_14">
+          <text decode="{{true}}" class="home_15">版本号</text>
+          <text decode="{{true}}" class="banbehao">{{banbehao}}</text>
+        </view>
+      </view>
+    </view>
+  </view>

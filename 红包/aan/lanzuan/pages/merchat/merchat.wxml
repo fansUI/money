@@ -1,0 +1,67 @@
+<tabbar tabbar="{{tabbar}}"></tabbar>
+<view class="lmsj">
+    <swiper indicator-dots="true" autoplay="true" interval="2000" duration="1000" class="swiper">
+        <block wx:for="{{imgUrls_swiper}}" wx:key="index">
+            <swiper-item>
+                <image src="{{item}}" data-index="{{index}}" class="slide-image" mode="scaleToFill" bindtap="slide_image_swiper_click" />
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="merchat_4">
+      <view class="sjfl">
+        <image bindtap="merchat_7_7_click" src="/tabbarComponent/icon/mer_sjfl_icon.png" style=" width:44rpx;height:36rpx;"  mode="aspectFit" border="0"    class="merchat_7"></image>
+        <picker  value="{{index_xuanzheqi}}" range="{{array_xuanzheqi}}" bindchange="xuanzheqi_Change" class="xuanzheqi">{{array_xuanzheqi[index_xuanzheqi]}}</picker>
+        <image bindtap="merchat_9_9_click" src="/tabbarComponent/icon/mei_sjx_icon.png" style=" width:27rpx;height:21rpx;"  mode="aspectFit" border="0"    class="merchat_9"></image>
+      </view>
+      <view class="merchat_10">
+        <image bindtap="merchat_11_11_click" src="/tabbarComponent/icon/mer_weizhi_icon.png" style=" width:37rpx;height:36rpx;"  mode="aspectFit" border="0"    class="merchat_11"></image>
+        <text decode="{{true}}" class="weizi">位置定位</text>
+      </view>
+    </view>
+    <view class="merchat_13">
+      <text decode="{{true}}" class="merchat_14">已入驻商家为</text>
+      <text decode="{{true}}" class="rzshangjia">{{rzshangjia}}</text>
+      <view class="maps">
+      </view>
+    </view>
+    <view class="merchat_17">
+      <text decode="{{true}}" class="bendishangjia">本地商家</text>
+    </view>
+    <view class="sj">
+    <view wx:for="{{list_sj}}" wx:key="{{index}}">
+
+      <view bindtap="sj_content_20_click" class="sj_content">        <view class="merchat_46">
+          <image bindtap="sj_img_23_click" src="{{item.sj_img}}" style=" width:167rpx;height:167rpx;"  mode="aspectFit" border="0"    class="sj_img"></image>
+          <text decode="{{true}}" class="sj_name">{{item.sj_name}}</text>
+          <text decode="{{true}}" class="sj_zheko">{{item.sj_zheko}}</text>
+          <text decode="{{true}}" class="sj_dizi">{{item.sj_dizi}}</text>
+        </view>
+        <view class="merchat_47">
+          <image bindtap="merchat_48_48_click" src="{{item.merchat_48}}" style=" width:64rpx;height:77rpx;"  mode="aspectFit" border="0"    class="merchat_48"></image>
+          <image bindtap="merchat_49_49_click" src="{{item.merchat_49}}" style=" width:100rpx;height:23rpx;"  mode="aspectFit" border="0"    class="merchat_49"></image>
+          <text decode="{{true}}" class="sj_jl">{{item.sj_jl}}</text>
+        </view>
+</view>
+    </view>
+</view>
+    <view class="merchat_32">
+      <text decode="{{true}}" class="shangbutuijian">商铺推荐</text>
+    </view>
+    <view class="sb">
+    <view wx:for="{{list_sb}}" wx:key="{{index}}">
+
+      <view bindtap="sb_content_52_click" class="sb_content">        <view class="merchat_57">
+          <image bindtap="sb_img_53_click" src="{{item.sb_img}}" style=" width:167rpx;height:167rpx;"  mode="aspectFit" border="0"    class="sb_img"></image>
+          <text decode="{{true}}" class="sb_name">{{item.sb_name}}</text>
+          <text decode="{{true}}" class="sb_zheko">{{item.sb_zheko}}</text>
+          <text decode="{{true}}" class="sb_dizi">{{item.sb_dizi}}</text>
+        </view>
+        <view class="merchat_58">
+          <image bindtap="merchat_59_59_click" src="{{item.merchat_59}}" style=" width:64rpx;height:77rpx;"  mode="aspectFit" border="0"    class="merchat_59"></image>
+          <image bindtap="merchat_60_60_click" src="{{item.merchat_60}}" style=" width:100rpx;height:23rpx;"  mode="aspectFit" border="0"    class="merchat_60"></image>
+          <text decode="{{true}}" class="sb_jl">{{item.sb_jl}}</text>
+        </view>
+</view>
+    </view>
+</view>
+  </view>

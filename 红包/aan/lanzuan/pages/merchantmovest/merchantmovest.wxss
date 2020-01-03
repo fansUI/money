@@ -1,0 +1,14 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+.list_horizontal {width: auto; display:inline-block; }
+ .merchantmovest_1{white-space:normal;width:750rpx;height:810rpx;padding:0rpx;clear:both;float:left;background-color:#ffffff;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .merchantmovest_1 .merchantmovest_2{white-space:normal;width:750rpx;height:208rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx; line-height:208rpx;}
+ .merchantmovest_1 .merchantmovest_3{white-space:normal;width:750rpx;height:339rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx; line-height:339rpx;}
+ .merchantmovest_1 .merchantmovest_5{white-space:normal;width:194rpx;height:37rpx;padding:0rpx;clear:both;margin-top:10rpx;margin-left:278rpx;float:left;text-align:left; border-radius:0rpx; color:#000000;font-size:34rpx; line-height:37rpx;}
+ .merchantmovest_1 .merchantmovest_6{white-space:normal;width:313rpx;height:31rpx;padding:0rpx;clear:both;margin-top:56rpx;margin-left:218rpx;float:left;text-align:left; border-radius:0rpx; color:#808080;font-size:25rpx; line-height:31rpx;}
+ .merchantmovest_1 .merchantmovest_7{white-space:normal;width:247rpx;height:30rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:252rpx;float:left;text-align:left; border-radius:0rpx; color:#808080;font-size:25rpx; line-height:31rpx;}
+ .merchantmovest_1 .merchantmovest_8{white-space:normal;width:314rpx;height:48rpx;padding:0rpx;clear:both;margin-top:25rpx;margin-left:217rpx;float:left;background-color:#ff0000;text-align:left; border-radius:0rpx; color:#ffffff;font-size:36rpx; line-height:48rpx;}

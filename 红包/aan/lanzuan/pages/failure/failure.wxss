@@ -1,0 +1,19 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+.list_horizontal {width: auto; display:inline-block; }
+ .failure_1{white-space:normal;width:748rpx;height:1294rpx;padding:0rpx;clear:both;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .failure_1 .failure_2{white-space:normal;width:748rpx;height:86rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:84rpx; line-height:86rpx;}
+ .failure_1 .failure_2 .failure_3{white-space:normal;width:32rpx;height:42rpx;padding:0rpx;margin-top:22rpx;margin-left:28rpx;float:left;text-align:left; border-radius:0rpx;font-size:40rpx; line-height:42rpx;}
+ .failure_1 .failure_2 .failure_4{white-space:normal;width:150rpx;height:33rpx;padding:0rpx;margin-top:32rpx;margin-left:238rpx;float:left;text-align:center;justify-content:center; border-radius:0rpx; color:#000000;font-size:32rpx; line-height:33rpx;}
+ .failure_1 .failure_2 .failure_5{white-space:normal;width:123rpx;height:30rpx;padding:0rpx;margin-top:35rpx;margin-left:160rpx;float:left;text-align:left; border-radius:0rpx; color:#808080;font-size:26rpx; line-height:30rpx;}
+ .failure_1 .failure_6{white-space:normal;width:748rpx;height:591rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx; line-height:591rpx;}
+ .failure_1 .failure_7{white-space:normal;width:748rpx;height:190rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .failure_1 .failure_7 .failure_8{white-space:normal;width:150rpx;height:37rpx;padding:0rpx;clear:both;margin-top:7rpx;margin-left:306rpx;float:left;text-align:center;justify-content:center; border-radius:0rpx; color:#000000;font-size:32rpx; line-height:37rpx;}
+ .failure_1 .failure_7 .failure_9{white-space:normal;width:158rpx;height:22rpx;padding:0rpx;clear:both;margin-top:16rpx;margin-left:306rpx;float:left;text-align:left; border-radius:0rpx; color:#808080;font-size:22rpx; line-height:22rpx;}
+ .failure_1 .failure_10{white-space:normal;width:748rpx;height:95rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:95rpx; line-height:95rpx;}
+ .failure_1 .failure_10 .failure_11{white-space:normal;width:646rpx;height:95rpx;padding:0rpx;margin-top:0rpx;margin-left:51rpx;float:left;background-color:#3fb204;text-align:left; border-radius:5rpx;font-size:93rpx; line-height:95rpx;}
+ .failure_1 .failure_10 .failure_11 .failure_12{white-space:normal;width:148rpx;height:38rpx;padding:0rpx;margin-top:28rpx;margin-left:251rpx;float:left;text-align:left; border-radius:0rpx; color:#ffffff;font-size:33rpx; line-height:38rpx;}

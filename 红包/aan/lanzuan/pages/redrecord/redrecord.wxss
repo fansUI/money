@@ -1,0 +1,14 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+ .redrecord_1{width:750rpx;height:1207rpx;padding:0rpx;clear:both;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .redrecord_1 .redrecord_5{width:750rpx;height:583rpx;padding:0rpx;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .redrecord_1 .redrecord_5 .redrecord_6{width:658rpx;height:557rpx;padding:0rpx;margin-top:26rpx;margin-left:43rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .redrecord_1 .redrecord_5 .redrecord_6 .redrecord_12{width:658rpx;position: relative;height:119rpx;padding:0rpx;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-bottom-color:#f1f1f1; border-bottom-width:1rpx; border-bottom-style:solid; border-radius:0rpx;font-size:12rpx;}
+ .redrecord_1 .redrecord_5 .redrecord_6 .redrecord_12 .name{width:287rpx;height:32rpx;padding:0rpx;margin-top:60rpx;margin-left:0rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#808080;font-size:26rpx; font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu,宋体,Arial, Helvetica; line-height:32rpx;}
+ .redrecord_1 .redrecord_5 .redrecord_6 .redrecord_12 .hbjl_content{width:187rpx;height:32rpx;padding:0rpx;margin-top:3rpx;margin-left:5rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#000000;font-size:31rpx; font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu,宋体,Arial, Helvetica; line-height:32rpx;}
+ .redrecord_1 .redrecord_5 .redrecord_6 .redrecord_12 .time{width:205rpx;height:23rpx;padding:0rpx;margin-top:72rpx;margin-left:453rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:right; border-radius:0rpx; color:#808080;font-size:20rpx; font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu,宋体,Arial, Helvetica; line-height:23rpx;}
+ .redrecord_1 .redrecord_5 .redrecord_6 .redrecord_12 .xf{width:120rpx;height:32rpx;padding:0rpx;margin-top:11rpx;margin-left:537rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:right; border-radius:0rpx; color:#ff0000;font-size:31rpx; font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu,宋体,Arial, Helvetica; line-height:32rpx;}

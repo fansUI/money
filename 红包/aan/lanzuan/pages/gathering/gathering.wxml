@@ -1,0 +1,9 @@
+<view class="gathering_2">
+    <view class="gathering_3">
+      <text decode="{{true}}" class="gathering_4">扫一扫,向我付钱</text>
+      <image bindtap="erweima_5_click" src="{{erweima}}" style=" width:326rpx;height:326rpx;"  mode="aspectFit" border="0"    class="erweima"></image>
+      <text decode="{{true}}" class="gathering_6">一分钟有效,每分钟自动更新,仅限当前使用</text>
+      <button bindtap="gathering_7_7_click" class="gathering_7">保存图片
+      </button>
+    </view>
+  </view>

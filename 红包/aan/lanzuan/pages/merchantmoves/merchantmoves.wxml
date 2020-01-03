@@ -1,0 +1,40 @@
+<view class="merchantmoves_1">
+    <image bindtap="merchantmoves_2_2_click" src="http://wx.ymznkf.com/project/wxapp/8576/tabbarDemo/merchantmoves/images/merchantmoves_2_2.jpg" style=" width:750rpx;height:208rpx;"  mode="scaleToFill" border="0"    class="merchantmoves_2"></image>
+    <view class="merchantmoves_3">
+      <view class="merchantmoves_4">
+        <text decode="{{true}}" class="merchantmoves_5">行业分类</text>
+        <view class="merchantmoves_6">
+          <picker  value="{{index_list_hangye}}" range="{{array_list_hangye}}" bindchange="list_hangye_Change" class="list_hangye">{{array_list_hangye[index_list_hangye]}}</picker>
+          <image bindtap="merchantmoves_7_7_click" src="http://wx.ymznkf.com/project/wxapp/8576/tabbarDemo/merchantmoves/images/merchantmoves_7_7.jpg" style=" width:20rpx;height:29rpx;"  mode="scaleToFill" border="0"    class="merchantmoves_7"></image>
+        </view>
+      </view>
+    </view>
+    <view class="merchantmoves_9">
+      <text decode="{{true}}" class="merchantmoves_10">经营范围:</text>
+      <view class="merchantmoves_11">
+        <textarea placeholder="请描述您的经营范围" value="{{content_jiyi}}" bindinput="content_jiyi_input" class="content_jiyi"></textarea>
+      </view>
+    </view>
+    <view class="merchantmoves_13">
+      <text decode="{{true}}" class="merchantmoves_14">营业执照图片</text>
+      <text decode="{{true}}" class="merchantmoves_15">*请拍摄营业执照图片</text>
+    </view>
+    <view class="merchantmoves_17">
+      <view class="merchantmoves_23">
+        <view class="merchantmoves_25">
+        </view>
+        <view class="merchantmoves_24">
+        </view>
+      </view>
+    </view>
+    <view class="merchantmoves_18">
+      <view class="merchantmoves_19">
+        <text decode="{{true}}" class="merchantmoves_20">620*328</text>
+        <text decode="{{true}}" class="merchantmoves_21">720*380</text>
+        <text decode="{{true}}" class="merchantmoves_22">1080*570</text>
+      </view>
+    </view>
+    <view class="merchantmoves_26">
+      <button bindtap="btn_xiayi_27_click" class="btn_xiayi">下一步</button>
+    </view>
+  </view>

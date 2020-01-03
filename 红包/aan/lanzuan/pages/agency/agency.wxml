@@ -1,0 +1,36 @@
+<view class="agency_2">
+    <view class="agency_3">
+      <view class="agency_5">
+        <image bindtap="agency_6_6_click" src="/image/hyzs_icon.png" style=" width:109rpx;height:59rpx;"  mode="aspectFit" border="0"    class="agency_6"></image>
+        <text decode="{{true}}" class="agency_7">会员总数</text>
+        <text decode="{{true}}" class="hyzs">{{hyzs}}</text>
+      </view>
+      <view class="agency_9">
+        <image bindtap="agency_10_10_click" src="/image/yxhy_icon.png" style=" width:109rpx;height:59rpx;"  mode="aspectFit" border="0"    class="agency_10"></image>
+        <text decode="{{true}}" class="agency_11">有效会员</text>
+        <text decode="{{true}}" class="yxhy">{{yxhy}}</text>
+      </view>
+      <view class="agency_13">
+        <image bindtap="agency_14_14_click" src="/image/ddze_icon.png" style=" width:109rpx;height:59rpx;"  mode="aspectFit" border="0"    class="agency_14"></image>
+        <text decode="{{true}}" class="agency_15">订单总额</text>
+        <text decode="{{true}}" class="ddze">{{ddze}}</text>
+      </view>
+    </view>
+    <view class="agency_4">
+      <view class="agency_17">
+        <text decode="{{true}}" class="agency_18">会员订单列表</text>
+        <text bindtap="agency_19_19_click" decode="{{true}}" class="agency_19">商家订单列表</text>
+      </view>
+    </view>
+    <view class="agency_21">
+    <view wx:for="{{list_21}}" wx:key="{{index}}">
+
+      <view class="agency_22">
+        <image bindtap="dd_img_23_click" src="{{item.dd_img}}" style=" width:100rpx;height:100rpx;"  mode="aspectFit" border="0"    class="dd_img"></image>
+        <text decode="{{true}}" class="dd_name">{{item.dd_name}}</text>
+        <text decode="{{true}}" class="dd_price">{{item.dd_price}}</text>
+        <text decode="{{true}}" class="dd_time">{{item.dd_time}}</text>
+      </view>
+    </view>
+</view>
+  </view>

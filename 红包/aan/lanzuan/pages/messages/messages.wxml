@@ -1,0 +1,10 @@
+<view class="messages_1">
+    <view class="messages_2">
+      <text decode="{{true}}" class="tillo">{{tillo}}</text>
+    </view>
+    <view class="messages_3">
+      <text decode="{{true}}" class="time">{{time}}</text>
+      <text decode="{{true}}" class="messages_6">系统消息</text>
+    </view>
+    <text decode="{{true}}" class="content">{{content}}</text>
+  </view>

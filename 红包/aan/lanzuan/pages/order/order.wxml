@@ -1,0 +1,29 @@
+<view class="order_1">
+    <view class="order_3">
+    <view wx:for="{{list_3}}" wx:key="{{index}}">
+
+      <view class="order_conner">
+        <image bindtap="order_img_7_click" src="{{item.order_img}}" style=" width:131rpx;height:130rpx;"  mode="aspectFit" border="0"    class="order_img"></image>
+        <view class="order_xx">
+          <text decode="{{true}}" class="order_24">{{item.order_24}}</text>
+          <text decode="{{true}}" class="order_bh">{{item.order_bh}}</text>
+          <text decode="{{true}}" class="order_10">{{item.order_10}}</text>
+          <text decode="{{true}}" class="order_16">{{item.order_16}}</text>
+          <text decode="{{true}}" class="order_20">{{item.order_20}}</text>
+          <text decode="{{true}}" class="order_dj">{{item.order_dj}}</text>
+          <text decode="{{true}}" class="order_jf">{{item.order_jf}}</text>
+          <text decode="{{true}}" class="order_name">{{item.order_name}}</text>
+          <text decode="{{true}}" class="order_biehao">{{item.order_biehao}}</text>
+          <text decode="{{true}}" class="order_phon">{{item.order_phon}}</text>
+          <text decode="{{true}}" class="order_12">{{item.order_12}}</text>
+          <text decode="{{true}}" class="order_18">{{item.order_18}}</text>
+          <text decode="{{true}}" class="order_sl">{{item.order_sl}}</text>
+          <text decode="{{true}}" class="order_fwf">{{item.order_fwf}}</text>
+          <text decode="{{true}}" class="order_time">{{item.order_time}}</text>
+          <text decode="{{true}}" class="order_14">{{item.order_14}}</text>
+          <text decode="{{true}}" class="order_ze">{{item.order_ze}}</text>
+        </view>
+      </view>
+    </view>
+</view>
+  </view>

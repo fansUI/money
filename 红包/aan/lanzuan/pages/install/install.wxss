@@ -1,0 +1,15 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+ .install_11{width:748rpx;height:1208rpx;padding:0rpx;clear:both;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .install_11 .install_12{width:654rpx;height:111rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:48rpx;float:left;text-align:left; border-bottom-color:#f6f6f6; border-bottom-width:1rpx; border-bottom-style:solid; border-radius:0rpx;font-size:12rpx;}
+ .install_11 .install_12 .install_13{width:654rpx;height:31rpx;padding:0rpx;margin-top:40rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:29rpx; line-height:31rpx;}
+ .install_11 .install_12 .install_13 .install_14{width:128rpx;height:31rpx;padding:0rpx;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx; color:#000000;font-size:28rpx; line-height:31rpx;}
+ .install_11 .install_12 .install_13 .install_15{width:23rpx;height:31rpx;padding:0rpx;margin-top:0rpx;margin-left:502rpx;float:left;text-align:left; border-radius:0rpx;font-size:29rpx; line-height:31rpx;}
+ .install_11 .install_16{width:654rpx;height:113rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:48rpx;float:left;text-align:left; border-bottom-color:#f6f6f6; border-bottom-width:1rpx; border-bottom-style:solid; border-radius:0rpx;font-size:12rpx;}
+ .install_11 .install_16 .install_17{width:654rpx;height:32rpx;padding:0rpx;margin-top:41rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:30rpx; line-height:32rpx;}
+ .install_11 .install_16 .install_17 .install_18{width:197rpx;height:32rpx;padding:0rpx;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx; color:#000000;font-size:28rpx; line-height:32rpx;}
+ .install_11 .install_16 .install_17 .install_19{width:21rpx;height:32rpx;padding:0rpx;margin-top:0rpx;margin-left:432rpx;float:left;text-align:left; border-radius:0rpx;font-size:30rpx; line-height:32rpx;}

@@ -1,0 +1,57 @@
+<view class="information_1">
+    <swiper indicator-dots="true" autoplay="true" interval="2000" duration="1000" class="information_2">
+        <block wx:for="{{imgUrls_2}}" wx:key="index">
+            <swiper-item>
+                <image src="{{item}}" data-index="{{index}}" class="slide-image" mode="scaleToFill" bindtap="slide_image_2_click" />
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="information_3">
+      <view class="information_4">
+        <image bindtap="sj_img_23_click" src="{{sj_img}}" style=" width:106rpx;height:105rpx;"  mode="aspectFit" border="0"    class="sj_img"></image>
+        <text decode="{{true}}" class="sj_name">{{sj_name}}</text>
+        <image bindtap="information_25_25_click" src="/image/xx_icon.png" style=" width:100rpx;height:18rpx;"  mode="aspectFit" border="0"    class="information_25"></image>
+        <text decode="{{true}}" class="sj_pf">{{sj_pf}}</text>
+        <image bindtap="information_27_27_click" src="/image/bsxx_icon.png" style=" width:89rpx;height:106rpx;"  mode="aspectFit" border="0"    class="information_27"></image>
+      </view>
+      <view class="information_5">
+        <image bindtap="information_12_12_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/information/images/information_12_12.jpg" style=" width:25rpx;height:28rpx;"  mode="scaleToFill" border="0"    class="information_12"></image>
+        <text decode="{{true}}" class="sj_dizi">{{sj_dizi}}</text>
+        <text decode="{{true}}" class="sj_jl">{{sj_jl}}</text>
+      </view>
+      <view class="information_6">
+        <image bindtap="information_16_16_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/information/images/information_16_16.jpg" style=" width:22rpx;height:25rpx;"  mode="scaleToFill" border="0"    class="information_16"></image>
+        <text decode="{{true}}" class="information_17">营业时间:</text>
+        <text decode="{{true}}" class="sj_time">{{sj_time}}</text>
+      </view>
+      <view class="information_7">
+        <view class="information_8">
+          <text decode="{{true}}" class="information_9">已有</text>
+          <text decode="{{true}}" class="sj_liul">{{sj_liul}}</text>
+          <text decode="{{true}}" class="information_11">人光临过本店</text>
+        </view>
+      </view>
+    </view>
+    <view class="information_19">
+      <text decode="{{true}}" class="information_21">商家简介</text>
+    </view>
+    <view class="information_20">
+      <text decode="{{true}}" class="sj_coner">{{sj_coner}}</text>
+    </view>
+    <view class="information_28">
+      <text decode="{{true}}" class="information_31">附近商家推荐</text>
+    </view>
+    <view class="information_29">
+    <view wx:for="{{list_29}}" wx:key="{{index}}">
+
+      <view bindtap="tj_coner_30_click" class="tj_coner">        <image bindtap="tj_img_32_click" src="{{item.tj_img}}" style=" width:166rpx;height:166rpx;"  mode="scaleToFill" border="0"    class="tj_img"></image>
+        <text decode="{{true}}" class="tj_name">{{item.tj_name}}</text>
+        <text decode="{{true}}" class="tj_zk">{{item.tj_zk}}</text>
+        <text decode="{{true}}" class="tj_dizi">{{item.tj_dizi}}</text>
+        <image bindtap="information_38_38_click" src="{{item.information_38}}" style=" width:101rpx;height:16rpx;"  mode="aspectFit" border="0"    class="information_38"></image>
+        <text decode="{{true}}" class="tj_jl">{{item.tj_jl}}</text>
+        <image bindtap="information_36_36_click" src="{{item.information_36}}" style=" width:62rpx;height:76rpx;"  mode="aspectFit" border="0"    class="information_36"></image>
+</view>
+    </view>
+</view>
+  </view>

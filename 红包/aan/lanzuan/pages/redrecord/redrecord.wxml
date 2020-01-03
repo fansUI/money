@@ -1,0 +1,15 @@
+<view class="redrecord_1">
+    <view class="redrecord_5">
+      <view class="redrecord_6">
+      <view wx:for="{{list_6}}" wx:key="{{index}}">
+
+        <view class="redrecord_12">
+          <text decode="{{true}}" class="name">{{item.name}}</text>
+          <text decode="{{true}}" class="hbjl_content">{{item.hbjl_content}}</text>
+          <text decode="{{true}}" class="time">{{item.time}}</text>
+          <text decode="{{true}}" class="xf">{{item.xf}}</text>
+        </view>
+      </view>
+</view>
+    </view>
+  </view>

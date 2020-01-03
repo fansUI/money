@@ -1,0 +1,13 @@
+<view class="circularize_1">
+    <view class="circularize_2">
+    <view wx:for="{{list_2}}" wx:key="{{index}}">
+
+      <view class="circularize_3">
+        <image bindtap="circularize_50_50_click" src="/image/tongzhi_icon.png" style=" width:115rpx;height:250rpx;"  mode="aspectFit" border="0"    class="circularize_50"></image>
+        <text decode="{{true}}" class="circularize_51">{{item.circularize_51}}</text>
+        <text decode="{{true}}" class="xinxi_content">{{item.xinxi_content}}</text>
+        <text decode="{{true}}" class="xinxi_time">{{item.xinxi_time}}</text>
+      </view>
+    </view>
+</view>
+  </view>

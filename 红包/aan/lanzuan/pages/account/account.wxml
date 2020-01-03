@@ -1,0 +1,36 @@
+<view class="account_1">
+    <view class="account_2">
+      <view class="account_6">
+        <text decode="{{true}}" class="account_3">意向金余额:</text>
+        <text decode="{{true}}" class="account_13">累计意向金充值总额</text>
+        <text decode="{{true}}" class="yxjr">{{yxjr}}</text>
+        <text decode="{{true}}" class="ljczje">{{ljczje}}</text>
+      </view>
+      <view class="account_7">
+        <text decode="{{true}}" class="account_14">累计意向金上交总额</text>
+        <text decode="{{true}}" class="sjje">{{sjje}}</text>
+      </view>
+      <view class="account_8">
+        <text decode="{{true}}" class="account_15">做单余额:</text>
+        <text decode="{{true}}" class="zdje">{{zdje}}</text>
+      </view>
+      <view class="account_9">
+        <text decode="{{true}}" class="account_16">订单贷款剩余额度:</text>
+        <text decode="{{true}}" class="syjr">{{syjr}}</text>
+      </view>
+      <view class="account_10">
+        <text decode="{{true}}" class="account_17">订单已贷款额度</text>
+        <text decode="{{true}}" class="dddkjr">{{dddkjr}}</text>
+      </view>
+      <view class="account_11">
+        <text decode="{{true}}" class="account_18">红包当前余额</text>
+        <text decode="{{true}}" class="red_sy">{{red_sy}}</text>
+      </view>
+      <view class="account_12">
+        <text decode="{{true}}" class="account_19">红包累计金额</text>
+        <text decode="{{true}}" class="ljje">{{ljje}}</text>
+      </view>
+      <button bindtap="btn_zhangdan_26_click" class="btn_zhangdan">我的账单
+      </button>
+    </view>
+  </view>

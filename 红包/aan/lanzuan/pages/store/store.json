@@ -1,0 +1,6 @@
+{
+   "navigationBarTitleText": "红包商城",
+   "usingComponents":{
+   "tabbar": "../../tabbarComponent/tabbar"
+   }
+}

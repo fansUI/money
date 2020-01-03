@@ -1,0 +1,13 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+ .circularize_1{width:750rpx;height:1208rpx;padding:0rpx;clear:both;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .circularize_1 .circularize_2{width:750rpx;height:352rpx;padding:0rpx;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .circularize_1 .circularize_2 .circularize_3{width:750rpx;position: relative;height:175rpx;padding:0rpx;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-bottom-color:#f6f6f6; border-bottom-width:1rpx; border-bottom-style:solid; border-radius:0rpx;font-size:12rpx;}
+ .circularize_1 .circularize_2 .circularize_3 .circularize_50{width:115rpx;height:113rpx;padding:0rpx;margin-top:31rpx;margin-left:30rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx;font-size:12rpx; line-height:113rpx;}
+ .circularize_1 .circularize_2 .circularize_3 .circularize_51{width:141rpx;height:34rpx;padding:0rpx;margin-top:43rpx;margin-left:172rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#000000;font-size:31rpx; line-height:34rpx;}
+ .circularize_1 .circularize_2 .circularize_3 .xinxi_content{width:539rpx;height:36rpx;padding:0rpx;margin-top:97rpx;margin-left:172rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#808080;font-size:28rpx; line-height:36rpx;}
+ .circularize_1 .circularize_2 .circularize_3 .xinxi_time{width:219rpx;height:27rpx;padding:0rpx;margin-top:51rpx;margin-left:492rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#808080;font-size:26rpx; line-height:27rpx;}

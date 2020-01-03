@@ -1,0 +1,164 @@
+<tabbar tabbar="{{tabbar}}"></tabbar>
+<view class="whole">
+  <view class="searchbox">
+    <button class="saosao" bindtap='getScancode' border="0">
+    <image src="/image/sys.png" style=" width:50rpx;height:50rpx;" mode="aspectFit"></image>
+  </button>
+    <view bindtap="index_123_123_click" class="index_123">
+      <text  class="searchbar">搜索商家或者名称</text>
+     
+      <image bindtap="index_125_125_click" src="/image/sous_icon.png" style=" width:50rpx;height:33rpx;" mode="aspectFit" border="0" class="index_125"></image>
+    </view>
+    <image bindtap="index_127_127_click" src="/image/xiaoxi_icon.png" style=" width:39rpx;height:34rpx;" mode="aspectFit" border="0" class="index_127"></image>
+  </view>
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" class="slideshow">
+    <block wx:for="{{imgUrls_slideshow}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item}}" data-index="{{index}}" class="slide-image" mode="scaleToFill" bindtap="slide_image_slideshow_click" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="index_4">
+    <image bindtap="zuixin_5_click" src="/tabbarComponent/icon/zuixin.png" style=" width:146rpx;height:42rpx;" mode="aspectFit" border="0" class="zuixin"></image>
+    <view class="totiao">
+    </view>
+    <view class="index_7">
+      <text bindtap="index_8_8_click"  class="index_8">更多</text>
+      <image bindtap="index_9_9_click" src="/image/jiantou_icon.png" style=" width:28rpx;height:42rpx;" mode="aspectFit" border="0" class="index_9"></image>
+    </view>
+  </view>
+  <view class="caidanlan">
+    <view class="head_content">
+      <view bindtap="hbsc_13_click" class="hbsc">
+        <image bindtap="index_14_14_click" src="/tabbarComponent/icon/hbsc.png" style=" width:108rpx;height:92rpx;" mode="aspectFit" border="0" class="index_14"></image>
+        <text  class="index_15">红包商城</text>
+      </view>
+      <view bindtap="hbjh_16_click" class="hbjh">
+        <image bindtap="index_17_17_click" src="/tabbarComponent/icon/hbjh.png" style=" width:108rpx;height:92rpx;" mode="aspectFit" border="0" class="index_17"></image>
+        <text  class="index_18">红包计划</text>
+      </view>
+      <view class="hbms">
+        <image bindtap="index_20_20_click" src="/tabbarComponent/icon/hbms.png" style=" width:108rpx;height:92rpx;" mode="aspectFit" border="0" class="index_20"></image>
+        <text  class="index_21">红包秒杀</text>
+      </view>
+      <view class="jfsc">
+        <image bindtap="index_23_23_click" src="/tabbarComponent/icon/jfsc.png" style=" width:108rpx;height:92rpx;" mode="aspectFit" border="0" class="index_23"></image>
+        <text  class="index_24">积分商城</text>
+      </view>
+    </view>
+    <view class="bottom_content">
+      <view class="xyhb">
+        <image bindtap="index_32_32_click" src="/tabbarComponent/icon/xyhb.png" style=" width:108rpx;height:92rpx;" mode="aspectFit" border="0" class="index_32"></image>
+        <text  class="index_33">幸运红包</text>
+      </view>
+      <view class="hbdb">
+        <image bindtap="index_35_35_click" src="/tabbarComponent/icon/hbdb.png" style=" width:108rpx;height:92rpx;" mode="aspectFit" border="0" class="index_35"></image>
+        <text  class="index_36">红包夺宝</text>
+      </view>
+      <view bindtap="xszn_28_click" class="xszn">
+        <image bindtap="index_29_29_click" src="/tabbarComponent/icon/xszn.png" style=" width:108rpx;height:92rpx;" mode="aspectFit" border="0" class="index_29"></image>
+        <text  class="index_30">新手指南</text>
+      </view>
+      <view class="gd">
+        <image bindtap="index_26_26_click" src="/tabbarComponent/icon/gd.png" style=" width:108rpx;height:92rpx;" mode="aspectFit" border="0" class="index_26"></image>
+        <text  class="index_27">更多</text>
+      </view>
+    </view>
+  </view>
+  <image bindtap="pic_banner_37_click" src="/tabbarComponent/icon/img_icon.png" style=" width:750rpx;height:126rpx;" mode="aspectFit" border="0" class="pic_banner"></image>
+  <view class="index_38">
+    <view class="index_40">
+    </view>
+    <text  class="index_39">促销产品</text>
+  </view>
+  <view class="cuxiao">
+    <view wx:for="{{list_cuxiao}}" wx:key="{{index}}">
+
+      <view bindtap="index_42_42_click" class="index_42">
+        <view class="index_51">
+          <image bindtap="cx_img_43_click" src="{{item.cx_img}}" style=" width:150rpx;height:152rpx;" mode="aspectFit" border="0" class="cx_img"></image>
+          <view class="index_44">
+            <text  class="cx_name">{{item.cx_name}}</text>
+            <text  class="cx_price">￥{{item.cx_price}}</text>
+            <view class="index_45">
+              <text  class="cx_red">可用红包{{item.cx_red}}</text>
+            </view>
+            <text  class="cx_scj">市场价{{item.cx_scj}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="index_60">
+    <view class="index_62">
+    </view>
+    <text  class="index_61">红包兑换</text>
+  </view>
+  <view class="red_coneer">
+    <view wx:for="{{list_red_coneer}}" wx:key="{{index}}">
+
+      <view bindtap="index_75_75_click" class="index_75">
+        <image bindtap="red_img_65_click" src="{{item.red_img}}" style=" width:206rpx;height:207rpx;" mode="aspectFit" border="0" class="red_img"></image>
+        <view class="index_66">
+          <image bindtap="index_70_70_click" src="/image/hb_icon.png" style=" width:21rpx;height:30rpx;" mode="aspectFit" border="0" class="index_70"></image>
+          <text  class="red_scj">市场价{{item.red_scj}}</text>
+          <text  class="red_name">{{item.red_name}}</text>
+          <view class="index_67">
+            <text  class="red_price">￥{{item.red_price}}</text>
+            <text  class="red_jl">+{{item.red_jl}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="index_79">
+    <view class="index_81">
+    </view>
+    <text  class="index_80">精品推荐</text>
+  </view>
+  <view class="recommend_coneer">
+    <view wx:for="{{list_recommend_coneer}}" wx:key="{{index}}">
+
+      <view bindtap="recommend_83_click" class="recommend">
+        <image bindtap="recommend_img_85_click" src="{{item.recommend_img}}" style=" width:331rpx;height:334rpx;" mode="aspectFit" border="0" class="recommend_img"></image>
+        <view class="index_86">
+          <view class="index_87">
+            <text  class="recommend_price">￥{{item.recommend_price}}</text>
+            <text  class="recommend_yj">市场价{{item.recommend_yj}}</text>
+          </view>
+          <view class="index_807">
+            <text  class="recommend_red">可用红包{{item.recommend_red}}</text>
+          </view>
+          <text  class="recommend_namae">{{item.recommend_namae}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="index_97">
+    <view class="index_99">
+    </view>
+    <text  class="index_98">推荐商家</text>
+    <view class="index_100">
+      <text bindtap="index_101_101_click"  class="index_101">更多</text>
+      <image bindtap="index_102_102_click" src="/image/jiantou_icon.png" style=" width:22rpx;height:28rpx;" mode="aspectFit" border="0" class="index_102"></image>
+    </view>
+  </view>
+  <view class="merchant_coneer">
+    <view wx:for="{{list_merchant_coneer}}" wx:key="{{index}}">
+
+      <view bindtap="index_104_104_click" class="index_104">
+        <image bindtap="merchant_img_107_click" src="{{item.merchant_img}}" style=" width:145rpx;height:150rpx;" mode="aspectFit" border="0" class="merchant_img"></image>
+        <view class="index_108">
+          <text  class="merchant_name">{{item.merchant_name}}</text>
+          <text  class="merchant_zk">{{item.merchant_zk}}</text>
+          <text  class="merchant_site">{{item.merchant_site}}</text>
+        </view>
+        <view class="index_114">
+          <image bindtap="index_115_115_click" src="/image/bsxx_icon.png" style=" width:65rpx;height:73rpx;" mode="aspectFit" border="0" class="index_115"></image>
+          <image bindtap="index_116_116_click" src="/image/xx_icon.png" style=" width:105rpx;height:19rpx;" mode="aspectFit" border="0" class="index_116"></image>
+          <text  class="merchant_distance">{{item.merchant_distance}}km</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

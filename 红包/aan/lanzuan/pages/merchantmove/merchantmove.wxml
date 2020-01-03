@@ -1,0 +1,104 @@
+<view class="merchantmove_1">
+    <image bindtap="merchantmove_2_2_click" src="http://wx.ymznkf.com/project/wxapp/8576/tabbarDemo/merchantmove/images/merchantmove_2_2.jpg" style=" width:751rpx;height:208rpx;"  mode="scaleToFill" border="0"    class="merchantmove_2"></image>
+    <view class="merchantmove_3">
+      <view class="merchantmove_5">
+        <view class="merchantmove_6">
+          <text decode="{{true}}" class="merchantmove_7">店铺负责人</text>
+          <input placeholder="请输入店铺负责人姓名" value="{{content_name}}" bindinput="content_name_input" class="content_name"></input>
+        </view>
+      </view>
+      <view class="merchantmove_9">
+        <view class="merchantmove_10">
+          <text decode="{{true}}" class="merchantmove_11">店铺名称</text>
+          <input placeholder="请输入店铺名称" value="{{content_nr}}" bindinput="content_nr_input" class="content_nr"></input>
+        </view>
+      </view>
+      <view class="merchantmove_13">
+        <view class="merchantmove_14">
+          <text decode="{{true}}" class="merchantmove_15">店铺电话</text>
+          <input placeholder="请输入店铺电话号码" value="{{content_phono}}" bindinput="content_phono_input" class="content_phono"></input>
+        </view>
+      </view>
+      <view class="merchantmove_17">
+        <view class="merchantmove_18">
+          <text decode="{{true}}" class="merchantmove_19">店铺地址</text>
+          <picker mode="region" value="{{map_diandi}}" bindchange="map_diandi_Change" class="map_diandi">{{map_diandi[0]}},{{map_diandi[1]}},{{map_diandi[2]}}</picker>
+        </view>
+      </view>
+      <view class="merchantmove_21">
+        <view class="merchantmove_22">
+          <text decode="{{true}}" class="merchantmove_23">详细地址</text>
+          <input placeholder="请具体到街道和门牌号" value="{{content_xiangxi}}" bindinput="content_xiangxi_input" class="content_xiangxi"></input>
+        </view>
+      </view>
+    </view>
+    <view class="merchantmove_25">
+      <text decode="{{true}}" class="merchantmove_26">地图地址</text>
+      <view class="merchantmove_28">
+        <text decode="{{true}}" class="merchantmove_29">*引用地图来源</text>
+      </view>
+      <text decode="{{true}}" class="merchantmove_27">*请在地图上点选店铺位置</text>
+    </view>
+    <view class="merchantmove_30">
+      <view class="merchantmove_32">
+        <text decode="{{true}}" class="merchantmove_33">店铺头图</text>
+        <text decode="{{true}}" class="merchantmove_34">请在拍摄街面角度的门店头图</text>
+      </view>
+      <view class="merchantmove_35">
+        <view class="merchantmove_41">
+          <view class="merchantmove_43">
+          </view>
+          <view class="merchantmove_42">
+          </view>
+        </view>
+      </view>
+      <view class="merchantmove_36">
+        <view class="merchantmove_37">
+          <text decode="{{true}}" class="merchantmove_38">620*328</text>
+          <text decode="{{true}}" class="merchantmove_39">720*380</text>
+          <text decode="{{true}}" class="merchantmove_40">1080*570</text>
+        </view>
+      </view>
+      <view class="merchantmove_44">
+        <text decode="{{true}}" class="merchantmove_45">店铺内部图(一)</text>
+        <text decode="{{true}}" class="merchantmove_46">*请拍摄出售商品或服务图片</text>
+      </view>
+      <view class="merchantmove_47">
+        <view class="merchantmove_53">
+          <view class="merchantmove_55">
+          </view>
+          <view class="merchantmove_54">
+          </view>
+        </view>
+      </view>
+      <view class="merchantmove_48">
+        <text decode="{{true}}" class="merchantmove_50">620*328</text>
+        <text decode="{{true}}" class="merchantmove_51">720*380</text>
+        <text decode="{{true}}" class="merchantmove_52">1080*570</text>
+      </view>
+      <view class="merchantmove_56">
+        <text decode="{{true}}" class="merchantmove_57">店铺内部图(二)</text>
+        <text decode="{{true}}" class="merchantmove_58">*请拍摄出售商品或服务图片</text>
+      </view>
+      <view class="merchantmove_59">
+        <view class="merchantmove_65">
+          <view class="merchantmove_67">
+          </view>
+          <view class="merchantmove_66">
+          </view>
+        </view>
+      </view>
+      <view class="merchantmove_60">
+        <view class="merchantmove_61">
+          <text decode="{{true}}" class="merchantmove_62">620*328</text>
+          <text decode="{{true}}" class="merchantmove_63">720*380</text>
+          <text decode="{{true}}" class="merchantmove_64">1080*570</text>
+        </view>
+      </view>
+      <view class="merchantmove_49">
+      </view>
+    </view>
+    <view class="merchantmove_31">
+      <button bindtap="bth_xyb_68_click" class="bth_xyb">下一步</button>
+    </view>
+  </view>

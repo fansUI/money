@@ -1,0 +1,1832 @@
+button::after {
+  border: none;
+  width: auto;
+}
+
+input {
+  outline: none;
+  border: none;
+  list-style: none;
+  width: auto;
+}
+
+.list_item {
+  float: left;
+}
+
+.ym_hide {
+  display: none;
+}
+
+.ym_show {
+  display: block;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+
+.list_horizontal {
+  width: auto;
+  display: inline-block;
+}
+
+.whole {
+  white-space: normal;
+  width: 750rpx;
+  min-height: 4436rpx;
+  padding: 0rpx;
+  clear: both;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .searchbox {
+  white-space: normal;
+  width: 750rpx;
+  height: 93rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  background-color: #fdfffd;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 91rpx;
+  line-height: 93rpx;
+}
+
+.whole .searchbox .saosao {
+  white-space: normal;
+  width: 55rpx;
+  height: 54rpx;
+  padding: 0rpx;
+  margin-top: 19rpx;
+  margin-left: 55rpx;
+  float: left;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 27rpx;
+  line-height: 54rpx;
+}
+
+.whole .searchbox .index_123 {
+  white-space: normal;
+  width: 503rpx;
+  height: 54rpx;
+  padding: 0rpx;
+  margin-top: 19rpx;
+  margin-left: 37rpx;
+  float: left;
+  background-color: #f5f5f5;
+  text-align: left;
+  border-radius: 60rpx;
+  font-size: 54rpx;
+  line-height: 54rpx;
+}
+
+.whole .searchbox .index_123 .searchbar {
+  white-space: normal;
+  width: 430rpx;
+  height: 33rpx;
+  min-height: 33rpx;
+  padding: 0rpx;
+  margin-top: 10rpx;
+  margin-left: 17rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #c0c0c0;
+  font-size: 22rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 33rpx;
+}
+
+.whole .searchbox .index_123 .index_125 {
+  white-space: normal;
+  width: 50rpx;
+  height: 33rpx;
+  padding: 0rpx;
+  margin-top: 10rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 31rpx;
+  line-height: 33rpx;
+}
+
+.whole .searchbox .index_127 {
+  white-space: normal;
+  width: 39rpx;
+  height: 34rpx;
+  padding: 0rpx;
+  margin-top: 30rpx;
+  margin-left: 34rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 32rpx;
+  line-height: 34rpx;
+}
+
+.whole .slideshow {
+  white-space: normal;
+  width: 100%;
+  height: 386rpx;
+  min-height: 292rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  font-size: 0rpx;
+}
+
+.whole .slideshow .wx-swiper-dots .wx-swiper-dots-horizontal {
+  margin-bottom: 0rpx;
+}
+
+.whole .slideshow .wx-swiper-dot {
+  width: 15rpx;
+  height: 15rpx;
+  display: inline-flex;
+  margin-left: 20rpx;
+  justify-content: space-between;
+}
+
+.whole .slideshow .wx-swiper-dot::before {
+  content: '';
+  flex-grow: 1;
+  background:  #e5e5e5;
+  border-radius: 8rpx;
+}
+
+.whole .slideshow .wx-swiper-dot-active::before {
+  background: red;
+}
+
+.whole .index_4 {
+  white-space: normal;
+  width: 750rpx;
+  height: 89rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-bottom-color: #f7f7f7;
+  border-bottom-width: 1rpx;
+  border-bottom-style: solid;
+  border-radius: 0rpx;
+  font-size: 87rpx;
+  line-height: 89rpx;
+}
+
+.whole .index_4 .zuixin {
+  white-space: normal;
+  width: 146rpx;
+  height: 42rpx;
+  padding: 0rpx;
+  margin-top: 18rpx;
+  margin-left: 23rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 42rpx;
+  line-height: 42rpx;
+}
+
+.whole .index_4 .totiao {
+  white-space: normal;
+  width: 442rpx;
+  height: 42rpx;
+  padding: 0rpx;
+  margin-top: 18rpx;
+  margin-left: 17rpx;
+  float: left;
+  text-align: left;
+  border-left-color: #f0f0f0;
+  border-left-width: 1rpx;
+  border-left-style: solid;
+  border-radius: 0rpx;
+  color: #1c1c1c;
+  font-size: 26rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 42rpx;
+}
+
+.whole .index_4 .index_7 {
+  white-space: normal;
+  width: 118rpx;
+  height: 42rpx;
+  padding: 0rpx;
+  margin-top: 18rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 40rpx;
+  line-height: 42rpx;
+}
+
+.whole .index_4 .index_7 .index_8 {
+  white-space: normal;
+  width: 65rpx;
+  height: 42rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  color: #1c1c1c;
+  font-size: 26rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 42rpx;
+}
+
+.whole .index_4 .index_7 .index_9 {
+  white-space: normal;
+  width: 28rpx;
+  height: 42rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 40rpx;
+  line-height: 42rpx;
+}
+
+.whole .caidanlan {
+  white-space: normal;
+  width: 750rpx;
+  height: 357rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .caidanlan .head_content {
+  white-space: normal;
+  width: 750rpx;
+  height: 175rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .caidanlan .head_content .hbsc {
+  white-space: normal;
+  width: 108rpx;
+  height: 133rpx;
+  padding: 0rpx;
+  margin-top: 32rpx;
+  margin-left: 52rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .caidanlan .head_content .hbsc .index_14 {
+  white-space: normal;
+  width: 108rpx;
+  height: 92rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 90rpx;
+  line-height: 92rpx;
+}
+
+.whole .caidanlan .head_content .hbsc .index_15 {
+  white-space: normal;
+  width: 108rpx;
+  height: 29rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 11rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  color: #0d0d0d;
+  font-size: 22rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 36rpx;
+}
+
+.whole .caidanlan .head_content .hbjh {
+  white-space: normal;
+  width: 108rpx;
+  height: 133rpx;
+  padding: 0rpx;
+  margin-top: 32rpx;
+  margin-left: 70rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .caidanlan .head_content .hbjh .index_17 {
+  white-space: normal;
+  width: 108rpx;
+  height: 92rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 90rpx;
+  line-height: 92rpx;
+}
+
+.whole .caidanlan .head_content .hbjh .index_18 {
+  white-space: normal;
+  width: 108rpx;
+  height: 29rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 11rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  color: #0d0d0d;
+  font-size: 22rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 31rpx;
+}
+
+.whole .caidanlan .head_content .hbms {
+  white-space: normal;
+  width: 108rpx;
+  height: 133rpx;
+  padding: 0rpx;
+  margin-top: 32rpx;
+  margin-left: 71rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .caidanlan .head_content .hbms .index_20 {
+  white-space: normal;
+  width: 108rpx;
+  height: 92rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 90rpx;
+  line-height: 92rpx;
+}
+
+.whole .caidanlan .head_content .hbms .index_21 {
+  white-space: normal;
+  width: 108rpx;
+  height: 29rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 11rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  color: #0d0d0d;
+  font-size: 22rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 31rpx;
+}
+
+.whole .caidanlan .head_content .jfsc {
+  white-space: normal;
+  width: 108rpx;
+  height: 133rpx;
+  padding: 0rpx;
+  margin-top: 32rpx;
+  margin-left: 73rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .caidanlan .head_content .jfsc .index_23 {
+  white-space: normal;
+  width: 108rpx;
+  height: 92rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 90rpx;
+  line-height: 92rpx;
+}
+
+.whole .caidanlan .head_content .jfsc .index_24 {
+  white-space: normal;
+  width: 108rpx;
+  height: 29rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 11rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  color: #0d0d0d;
+  font-size: 22rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 31rpx;
+}
+
+.whole .caidanlan .bottom_content {
+  white-space: normal;
+  width: 750rpx;
+  height: 156rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .caidanlan .bottom_content .xyhb {
+  white-space: normal;
+  width: 108rpx;
+  height: 133rpx;
+  padding: 0rpx;
+  margin-top: 12rpx;
+  margin-left: 52rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .caidanlan .bottom_content .xyhb .index_32 {
+  white-space: normal;
+  width: 108rpx;
+  height: 92rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 90rpx;
+  line-height: 92rpx;
+}
+
+.whole .caidanlan .bottom_content .xyhb .index_33 {
+  white-space: normal;
+  width: 108rpx;
+  height: 29rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 11rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  color: #0d0d0d;
+  font-size: 22rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 31rpx;
+}
+
+.whole .caidanlan .bottom_content .hbdb {
+  white-space: normal;
+  width: 108rpx;
+  height: 133rpx;
+  padding: 0rpx;
+  margin-top: 12rpx;
+  margin-left: 70rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .caidanlan .bottom_content .hbdb .index_35 {
+  white-space: normal;
+  width: 108rpx;
+  height: 92rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 90rpx;
+  line-height: 92rpx;
+}
+
+.whole .caidanlan .bottom_content .hbdb .index_36 {
+  white-space: normal;
+  width: 108rpx;
+  height: 29rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 11rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  color: #0d0d0d;
+  font-size: 22rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 31rpx;
+}
+
+.whole .caidanlan .bottom_content .xszn {
+  white-space: normal;
+  width: 108rpx;
+  height: 133rpx;
+  padding: 0rpx;
+  margin-top: 12rpx;
+  margin-left: 71rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .caidanlan .bottom_content .xszn .index_29 {
+  white-space: normal;
+  width: 108rpx;
+  height: 92rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 90rpx;
+  line-height: 92rpx;
+}
+
+.whole .caidanlan .bottom_content .xszn .index_30 {
+  white-space: normal;
+  width: 108rpx;
+  height: 29rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 11rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  color: #0d0d0d;
+  font-size: 22rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 31rpx;
+}
+
+.whole .caidanlan .bottom_content .gd {
+  white-space: normal;
+  width: 108rpx;
+  height: 133rpx;
+  padding: 0rpx;
+  margin-top: 12rpx;
+  margin-left: 73rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .caidanlan .bottom_content .gd .index_26 {
+  white-space: normal;
+  width: 108rpx;
+  height: 92rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 90rpx;
+  line-height: 92rpx;
+}
+
+.whole .caidanlan .bottom_content .gd .index_27 {
+  white-space: normal;
+  width: 108rpx;
+  height: 29rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 11rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  color: #0d0d0d;
+  font-size: 22rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 31rpx;
+}
+
+.whole .pic_banner {
+  white-space: normal;
+  width: 750rpx;
+  height: 126rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+  line-height: 126rpx;
+}
+
+.whole .index_38 {
+  white-space: normal;
+  width: 750rpx;
+  position: relative;
+  height: 93rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 91rpx;
+  line-height: 93rpx;
+}
+
+.whole .index_38 .index_40 {
+  white-space: normal;
+  width: 134rpx;
+  height: 10rpx;
+  padding: 0rpx;
+  margin-top: 72rpx;
+  margin-left: 306rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  background-color: #edd4fa;
+  text-align: left;
+  border-radius: 80rpx;
+  font-size: 8rpx;
+  line-height: 10rpx;
+}
+
+.whole .index_38 .index_39 {
+  white-space: normal;
+  width: 132rpx;
+  height: 35rpx;
+  padding: 0rpx;
+  margin-top: 58rpx;
+  margin-left: 308rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  font-weight: bold;
+  color: #1c1c1c;
+  font-size: 29rpx;
+  font-family: 幼圆;
+  line-height: 36rpx;
+}
+
+.whole .cuxiao {
+  white-space: normal;
+  width: 750rpx;
+  height: 428rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .cuxiao .index_42 {
+  white-space: normal;
+  width: 750rpx;
+  height: 213rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-bottom-color: #f7f7f7;
+  border-bottom-width: 1rpx;
+  border-bottom-style: solid;
+  border-radius: 0rpx;
+  
+}
+
+.whole .cuxiao .index_42 .index_51 {
+  white-space: normal;
+  width: 719rpx;
+  height: 152rpx;
+  padding: 0rpx;
+  margin-top: 37rpx;
+  margin-left: 30rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .cuxiao .index_42 .index_51 .cx_img {
+  white-space: normal;
+  width: 150rpx;
+  height: 152rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-color: #f7f7f7;
+  border-width: 1rpx;
+  border-style: solid;
+  border-radius: 10rpx;
+  
+  line-height: 152rpx;
+}
+
+.whole .cuxiao .index_42 .index_51 .index_44 {
+  white-space: normal;
+  width: 497rpx;
+  position: relative;
+  height: 152rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 15rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .cuxiao .index_42 .index_51 .index_44 .cx_name {
+  white-space: normal;
+  width: 487rpx;
+  height: 45rpx;
+  padding: 0rpx;
+  margin-top: 11rpx;
+  margin-left: 10rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #171717;
+  font-size: 26rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 45rpx;
+}
+
+.whole .cuxiao .index_42 .index_51 .index_44 .cx_price {
+  white-space: normal;
+  width: 109rpx;
+  height: 28rpx;
+  padding: 0rpx;
+  margin-top: 78rpx;
+  margin-left: 10rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #f5522a;
+  font-size: 31rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 28rpx;
+}
+
+.whole .cuxiao .index_42 .index_51 .index_44 .index_45 {
+  white-space: normal;
+  width: 185rpx;
+  height: 33rpx;
+  padding: 0rpx;
+  margin-top: 118rpx;
+  margin-left: 10rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  background-image: url(data:image/png;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAdAK0DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDyTw74dS+jF5eDNuciOMNjd2ycdAP88de0hijgjEcUaRoOiooAH4Uy2hW2tooEJKxoEBPUgDFTCvusHg6eGpqMVr1Z4FatKrK72FFPFMFPFdbIQ4U4U0U4VDNEPFPFMFPFSzRDxTxTBTxUM1Q8U8UwU8VDNUPFPFMFPFQzVDxThTRThUM1Q8U4U0U4VLNEPFOFNFOqWaIztV0DTdahdL21jZ2TaJgoEiDthuvBOcdPavGdf0O48P6o1lcMrjbvjkXo6EkA47Hg8e3frXvFZ+raBpuueT/aNt53k7tn7xlxnGehHoK4cXhFWV46SG1c47RtQXUtMin3FpANsuQB84HPT8/xrRFeYabqlzpU5ltyDuGGR+Vb0z9K73RdV/te0efyfK2uU27t2eAfQetd+XZlDERVOXxr8fM8LE4aVNuS2NMU8UwU4V6bOdDxThTRThUs0Q8U8UwU8VLNEPFPFMFPFQzVDxTxUYqQVDNUPFPFMFPFQzVDxThTRThUM1Q8U4U0U4VLNEPFOFMFPFSzRCiuL8YeNp9B1CGysEt5ZQm+fzQWC5+6OGGDjJOexFVvFfju70rUbrS7K1jWWPA+0O27hkB4XHBBI6kjjpXmUkjzSvLK7PI7FmZjksT1JPrXk4zHcvuU9+oNn//Z);
+  background-size: cover;
+  text-align: left;
+  border-radius: 60rpx;
+  font-size: 0rpx;
+  line-height: 33rpx;
+}
+
+.whole .cuxiao .index_42 .index_51 .index_44 .index_45 .cx_red {
+  white-space: normal;
+  width: 176rpx;
+  height: 33rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 9rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #fff;
+  font-size: 23rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 33rpx;
+}
+
+.whole .cuxiao .index_42 .index_51 .index_44 .cx_scj {
+  white-space: normal;
+  width: 114rpx;
+  height: 20rpx;
+  padding: 0rpx;
+  margin-top: 85rpx;
+  margin-left: 119rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: left;
+  border-radius: 0rpx;
+  text-decoration: line-through;
+  color: #cdcdcd;
+  font-size: 20rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 20rpx;
+}
+
+.whole .index_60 {
+  white-space: normal;
+  width: 750rpx;
+  position: relative;
+  height: 91rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 73rpx;
+  line-height: 91rpx;
+}
+
+.whole .index_60 .index_62 {
+  white-space: normal;
+  width: 134rpx;
+  height: 10rpx;
+  padding: 0rpx;
+  margin-top: 59rpx;
+  margin-left: 306rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  background-color: #fed4d4;
+  text-align: left;
+  border-radius: 80rpx;
+  font-size: 8rpx;
+  line-height: 10rpx;
+}
+
+.whole .index_60 .index_61 {
+  white-space: normal;
+  width: 132rpx;
+  height: 35rpx;
+  padding: 0rpx;
+  margin-top: 44rpx;
+  margin-left: 308rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  font-weight: bold;
+  color: #1c1c1c;
+  font-size: 29rpx;
+  font-family: 幼圆;
+  line-height: 36rpx;
+}
+
+.whole .red_coneer {
+  white-space: normal;
+  width: 750rpx;
+  height: 711rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .red_coneer .index_75 {
+  white-space: normal;
+  width: 241rpx;
+  height: 352rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 10rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .red_coneer .index_75 .red_img {
+  white-space: normal;
+  width: 206rpx;
+  height: 207rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 21rpx;
+  margin-left: 21rpx;
+  float: left;
+  text-align: left;
+  border-color: #f7f7f7;
+  border-width: 1rpx;
+  border-style: solid;
+  border-radius: 10rpx;
+  
+  line-height: 207rpx;
+}
+
+.whole .red_coneer .index_75 .index_66 {
+  white-space: normal;
+  width: 208rpx;
+  position: relative;
+  height: 122rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 19rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .red_coneer .index_75 .index_66 .index_70 {
+  white-space: normal;
+  width: 21rpx;
+  height: 30rpx;
+  padding: 0rpx;
+  margin-top: 18rpx;
+  margin-left: 0rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 28rpx;
+  line-height: 30rpx;
+}
+
+.whole .red_coneer .index_75 .index_66 .red_scj {
+  white-space: normal;
+  width: 208rpx;
+  height: 26rpx;
+  padding: 0rpx;
+  margin-top: 58rpx;
+  margin-left: 0rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: left;
+  border-radius: 0rpx;
+  text-decoration: line-through;
+  color: #e1e1e1;
+  font-size: 26rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 26rpx;
+}
+
+.whole .red_coneer .index_75 .index_66 .red_name {
+  white-space: normal;
+  width: 208rpx;
+  height: 28rpx;
+  padding: 0rpx;
+  margin-top: 94rpx;
+  margin-left: 0rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #1c1c1c;
+  font-size: 26rpx;
+  line-height: 28rpx;
+}
+
+.whole .red_coneer .index_75 .index_66 .index_67 {
+  white-space: normal;
+  width: 186rpx;
+  height: 30rpx;
+  padding: 0rpx;
+  margin-top: 18rpx;
+  margin-left: 21rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 28rpx;
+  line-height: 30rpx;
+}
+
+.whole .red_coneer .index_75 .index_66 .index_67 .red_price {
+  white-space: normal;
+  width: 98rpx;
+  height: 30rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #f5522a;
+  font-size: 31rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 30rpx;
+}
+
+.whole .red_coneer .index_75 .index_66 .index_67 .red_jl {
+  white-space: normal;
+  width: 78rpx;
+  height: 30rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 9rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #f5522a;
+  font-size: 26rpx;
+  line-height: 30rpx;
+}
+
+.whole .index_79 {
+  white-space: normal;
+  width: 750rpx;
+  position: relative;
+  height: 114rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 48rpx;
+  line-height: 75rpx;
+}
+
+.whole .index_79 .index_81 {
+  white-space: normal;
+  width: 134rpx;
+  height: 10rpx;
+  padding: 0rpx;
+  margin-top: 89rpx;
+  margin-left: 306rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  background-color: #fbfdbe;
+  text-align: left;
+  border-radius: 80rpx;
+  font-size: 8rpx;
+  line-height: 10rpx;
+}
+
+.whole .index_79 .index_80 {
+  white-space: normal;
+  width: 132rpx;
+  height: 35rpx;
+  padding: 0rpx;
+  margin-top: 75rpx;
+  margin-left: 308rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  font-weight: bold;
+  color: #1c1c1c;
+  font-size: 29rpx;
+  font-family: 幼圆;
+  line-height: 36rpx;
+}
+
+.whole .recommend_coneer {
+  white-space: normal;
+  width: 750rpx;
+  height: 1053rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .recommend_coneer .recommend {
+  white-space: normal;
+  width: 375rpx;
+  height: 536rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .recommend_coneer .recommend .recommend_img {
+  white-space: normal;
+  width: 331rpx;
+  height: 334rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 33rpx;
+  margin-left: 32rpx;
+  float: left;
+  text-align: left;
+  border-color: #f7f7f7;
+  border-width: 1rpx;
+  border-style: solid;
+  border-radius: 10rpx;
+  
+  line-height: 334rpx;
+}
+
+.whole .recommend_coneer .recommend .index_86 {
+  white-space: normal;
+  width: 331rpx;
+  height: 143rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 32rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .recommend_coneer .recommend .index_86 .index_87 {
+  white-space: normal;
+  width: 331rpx;
+  height: 33rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 16rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 26rpx;
+  line-height: 33rpx;
+}
+
+.whole .recommend_coneer .recommend .index_86 .index_87 .recommend_price {
+  white-space: normal;
+  width: 159rpx;
+  height: 33rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #f5522a;
+  font-size: 31rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 33rpx;
+}
+
+.whole .recommend_coneer .recommend .index_86 .index_87 .recommend_yj {
+  white-space: normal;
+  width: 139rpx;
+  height: 23rpx;
+  padding: 0rpx;
+  margin-top: 9rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  text-decoration: line-through;
+  color: #e1e1e1;
+  font-size: 20rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 23rpx;
+}
+
+.whole .recommend_coneer .recommend .index_86 .index_807 {
+  white-space: normal;
+  width: 185rpx;
+  height: 33rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 9rpx;
+  margin-left: 0rpx;
+  float: left;
+  background-image: url(data:image/png;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAdAK0DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDynwr4Yj1ONr2+DfZgSqRjK+Ye5z6duO+fTnv7e1t7RDHbQRQoTkrGgUE+vFMsbYWdhb2obd5MapuxjOBjOKsV4datKpK/Q/RMBgaeFpKKXvdX1HU4U0U4VgztHCnCminCpZLHinimCnCoZLHinimCnioZLHinimCnioZDHCniminCoZLHinimCnipZLHCnCminCoZDHCnCminCpYmZGr+FtG1xJPtllH5z8m4jAWUHGAdw64HY5HA44rxLxHoFz4b1d7G4ZZBt3xSL0dCSAcdjwRj27jBP0MKzNY8PaVr3k/2na+f5O7y/wB4y7c4z90j0Fd+Cx8qErTu4/1seZjsvjiI3hZS/rc5Hw/epf6HaTCQu4jCSFmBbevBzz36884IPetOvINK1i70a5M1qw+YYeNxlW9Mj2/z3r0/RdT/ALX01LzyfK3EjZu3YwcdcCvRxNB03zdGd2U5lDFwVN/HFa/lc0qcKaKcK5GesOFOFNFOFSyWPFPFRinioZLHinimA08VDJY8U8UwU4GoZDJBThTBTxUMljxTxTBThUMljxThTRThUsljhThTRThUsljhXD+N/HM3h69t7PTvsk1wVZrhJVZvL6behGCeTj6evJ428bz+Hp2021tAbia2EkdyZOIyWI+5j5uFOOepHXGD47JJJNK8srtJI7FndjksT1JPc16+X5fzv2tVe70Xc8PMcx5L0qXxdX2P/9k=);
+  background-size: cover;
+  text-align: left;
+  border-radius: 80rpx;
+  font-size: 0rpx;
+  line-height: 32rpx;
+}
+
+.whole .recommend_coneer .recommend .index_86 .index_807 .recommend_red {
+  white-space: normal;
+  width: 176rpx;
+  height: 33rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 9rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #fff;
+  font-size: 23rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 33rpx;
+}
+
+.whole .recommend_coneer .recommend .index_86 .recommend_namae {
+  white-space: normal;
+  width: 298rpx;
+  height: 36rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 14rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #171717;
+  font-size: 26rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 36rpx;
+}
+
+.whole .index_97 {
+  white-space: normal;
+  width: 750rpx;
+  position: relative;
+  height: 163rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-bottom-color: #f7f7f7;
+  border-bottom-width: 1rpx;
+  border-bottom-style: solid;
+  border-radius: 0rpx;
+  
+}
+
+.whole .index_97 .index_99 {
+  white-space: normal;
+  width: 134rpx;
+  height: 10rpx;
+  padding: 0rpx;
+  margin-top: 115rpx;
+  margin-left: 306rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  background-color: #d9f1ca;
+  text-align: left;
+  border-radius: 80rpx;
+  font-size: 8rpx;
+  line-height: 10rpx;
+}
+
+.whole .index_97 .index_98 {
+  white-space: normal;
+  width: 132rpx;
+  height: 35rpx;
+  padding: 0rpx;
+  margin-top: 101rpx;
+  margin-left: 308rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  font-weight: bold;
+  color: #1c1c1c;
+  font-size: 29rpx;
+  font-family: 幼圆;
+  line-height: 36rpx;
+}
+
+.whole .index_97 .index_100 {
+  white-space: normal;
+  width: 86rpx;
+  height: 28rpx;
+  padding: 0rpx;
+  margin-top: 108rpx;
+  margin-left: 638rpx;
+  float: left;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 26rpx;
+  line-height: 28rpx;
+}
+
+.whole .index_97 .index_100 .index_101 {
+  white-space: normal;
+  width: 63rpx;
+  height: 28rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  color: #171717;
+  font-size: 26rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 28rpx;
+}
+
+.whole .index_97 .index_100 .index_102 {
+  white-space: normal;
+  width: 22rpx;
+  height: 28rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 26rpx;
+  line-height: 28rpx;
+}
+
+.whole .merchant_coneer {
+  white-space: normal;
+  width: 750rpx;
+  height: 587rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .merchant_coneer .index_104 {
+  white-space: normal;
+  width: 750rpx;
+  height: 196rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-bottom-color: #f7f7f7;
+  border-bottom-width: 1rpx;
+  border-bottom-style: solid;
+  border-radius: 0rpx;
+  
+}
+
+.whole .merchant_coneer .index_104 .merchant_img {
+  white-space: normal;
+  width: 145rpx;
+  height: 150rpx;
+  padding: 0rpx;
+  margin-top: 21rpx;
+  margin-left: 34rpx;
+  float: left;
+  text-align: left;
+  border-color: #f7f7f7;
+  border-width: 1rpx;
+  border-style: solid;
+  border-radius: 10rpx;
+  
+  line-height: 150rpx;
+}
+
+.whole .merchant_coneer .index_104 .index_108 {
+  white-space: normal;
+  width: 430rpx;
+  height: 150rpx;
+  padding: 0rpx;
+  margin-top: 21rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .merchant_coneer .index_104 .index_108 .merchant_name {
+  white-space: normal;
+  width: 363rpx;
+  height: 35rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 7rpx;
+  margin-left: 22rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #1c1c1c;
+  font-size: 31rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 35rpx;
+}
+
+.whole .merchant_coneer .index_104 .index_108 .merchant_zk {
+  white-space: normal;
+  width: 363rpx;
+  height: 28rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 19rpx;
+  margin-left: 22rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #808080;
+  font-size: 26rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 28rpx;
+}
+
+.whole .merchant_coneer .index_104 .index_108 .merchant_site {
+  white-space: normal;
+  width: 363rpx;
+  height: 25rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 34rpx;
+  margin-left: 22rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  color: #808080;
+  font-size: 22rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 25rpx;
+}
+
+.whole .merchant_coneer .index_104 .index_114 {
+  white-space: normal;
+  width: 105rpx;
+  height: 171rpx;
+  padding: 0rpx;
+  margin-top: 0rpx;
+  margin-left: 20rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  
+}
+
+.whole .merchant_coneer .index_104 .index_114 .index_115 {
+  white-space: normal;
+  width: 65rpx;
+  height: 73rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 0rpx;
+  margin-left: 23rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 71rpx;
+  line-height: 73rpx;
+}
+
+.whole .merchant_coneer .index_104 .index_114 .index_116 {
+  white-space: normal;
+  width: 105rpx;
+  height: 19rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 6rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: left;
+  border-radius: 0rpx;
+  font-size: 14rpx;
+  line-height: 19rpx;
+}
+
+.whole .merchant_coneer .index_104 .index_114 .merchant_distance {
+  white-space: normal;
+  width: 105rpx;
+  height: 25rpx;
+  padding: 0rpx;
+  clear: both;
+  margin-top: 46rpx;
+  margin-left: 0rpx;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0rpx;
+  color: #e1e1e1;
+  font-size: 22rpx;
+  font-family: "Microsoft YaHei",
+                 微软雅黑,
+                 "Microsoft JhengHei",
+                 华文细黑,
+                 STHeiti,
+                 MingLiu,
+                 宋体,
+                 Arial,
+                 Helvetica;
+  line-height: 25rpx;
+}

@@ -1,0 +1,68 @@
+<view class="mestore_1">
+    <image bindtap="mestore_2_2_click" src="/tabbarComponent/icon/wodeshangpu.png" style=" width:749rpx;height:292rpx;"  mode="scaleToFill" border="0"    class="mestore_2">      <text decode="{{true}}" class="mestore_3">{{mestore_3}}</text>
+      <view class="mestore_55">
+        <text decode="{{true}}" class="mestore_56">商户ID:</text>
+        <text decode="{{true}}" class="mestore_57">{{mestore_57}}</text>
+      </view>
+      <view class="mestore_6">
+        <image bindtap="mestore_52_52_click" src="/tabbarComponent/icon/erweimas.png" style=" width:28rpx;height:27rpx;"  mode="scaleToFill" border="0"    class="mestore_52"></image>
+        <image bindtap="mestore_53_53_click" src="/tabbarComponent/icon/jterweimajt.png" style=" width:12rpx;height:20rpx;"  mode="scaleToFill" border="0"    class="mestore_53"></image>
+      </view>
+</image>
+    <view class="mestore_54">
+      <view class="mestore_18">
+        <view bindtap="mestore_19_19_click" class="mestore_19">          <text decode="{{true}}" class="mestore_20">商家订单</text>
+          <view class="mestore_23">
+            <text decode="{{true}}" class="mestore_21">查看订单</text>
+            <view class="mestore_22">
+            </view>
+          </view>
+</view>
+      </view>
+      <view class="mestore_24">
+        <view bindtap="mestore_25_25_click" class="mestore_25">          <image bindtap="mestore_26_26_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mestore/images/mestore_26_26.jpg" style=" width:129rpx;height:45rpx;"  mode="scaleToFill" border="0"    class="mestore_26"></image>
+          <text decode="{{true}}" class="mestore_27">店铺管理</text>
+</view>
+        <view class="mestore_28">
+          <image bindtap="mestore_29_29_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mestore/images/mestore_29_29.jpg" style=" width:129rpx;height:45rpx;"  mode="scaleToFill" border="0"    class="mestore_29"></image>
+          <text decode="{{true}}" class="mestore_30">商家转红包</text>
+        </view>
+        <view bindtap="mestore_31_31_click" class="mestore_31">          <image bindtap="mestore_32_32_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mestore/images/mestore_32_32.jpg" style=" width:129rpx;height:45rpx;"  mode="scaleToFill" border="0"    class="mestore_32"></image>
+          <text decode="{{true}}" class="mestore_33">更多</text>
+</view>
+        <view class="mestore_34">
+          <image bindtap="mestore_35_35_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mestore/images/mestore_35_35.jpg" style=" width:129rpx;height:45rpx;"  mode="scaleToFill" border="0"    class="mestore_35"></image>
+          <text decode="{{true}}" class="mestore_36">商家做单</text>
+        </view>
+        <view bindtap="mestore_37_37_click" class="mestore_37">          <image bindtap="mestore_38_38_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mestore/images/mestore_38_38.jpg" style=" width:129rpx;height:45rpx;"  mode="scaleToFill" border="0"    class="mestore_38"></image>
+          <text decode="{{true}}" class="mestore_39">红包记录</text>
+</view>
+        <view class="mestore_40">
+          <image bindtap="mestore_41_41_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mestore/images/mestore_41_41.jpg" style=" width:129rpx;height:45rpx;"  mode="scaleToFill" border="0"    class="mestore_41"></image>
+          <text decode="{{true}}" class="mestore_42">账户</text>
+        </view>
+        <view bindtap="mestore_43_43_click" class="mestore_43">          <image bindtap="mestore_44_44_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mestore/images/mestore_44_44.jpg" style=" width:129rpx;height:45rpx;"  mode="scaleToFill" border="0"    class="mestore_44"></image>
+          <text decode="{{true}}" class="mestore_45">信息通告</text>
+</view>
+        <view class="mestore_46">
+          <image bindtap="mestore_47_47_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mestore/images/mestore_47_47.jpg" style=" width:129rpx;height:45rpx;"  mode="scaleToFill" border="0"    class="mestore_47"></image>
+          <text decode="{{true}}" class="mestore_48">客服</text>
+        </view>
+        <view bindtap="mestore_49_49_click" class="mestore_49">          <image bindtap="mestore_50_50_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mestore/images/mestore_50_50.jpg" style=" width:129rpx;height:45rpx;"  mode="scaleToFill" border="0"    class="mestore_50"></image>
+          <text decode="{{true}}" class="mestore_51">设置</text>
+</view>
+      </view>
+    </view>
+    <view class="mestore_9">
+      <view class="mestore_14">
+        <text decode="{{true}}" class="mestore_15">{{mestore_15}}</text>
+        <text decode="{{true}}" class="mestore_16">订单数</text>
+      </view>
+      <view class="mestore_17">
+      </view>
+      <view class="mestore_11">
+        <text decode="{{true}}" class="mestore_12">{{mestore_12}}</text>
+        <text decode="{{true}}" class="mestore_13">红包</text>
+      </view>
+    </view>
+  </view>

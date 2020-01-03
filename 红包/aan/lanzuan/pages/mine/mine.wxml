@@ -1,0 +1,111 @@
+<tabbar tabbar="{{tabbar}}"></tabbar>
+<view class="mine_1">
+    <image bindtap="mine_37_37_click" src="/tabbarComponent/icon/122.png" style=" width:750rpx;height:396rpx;"  mode="aspectFit" border="0"    class="mine_37">      <view class="toxiang">
+      </view>
+      <view class="mine_14">
+      </view>
+      <text decode="{{true}}" class="info_name">{{info_name}}</text>
+      <text decode="{{true}}" class="mine_190">{{mine_190}}</text>
+      <text bindtap="info_id_8_click" decode="{{true}}" class="info_id">登陆</text>
+      <text decode="{{true}}" class="mine_195">/</text>
+      <text bindtap="mine_194_194_click" decode="{{true}}" class="mine_194">注册</text>
+      <view bindtap="fukma_191_click" class="fukma">        <image bindtap="mine_9_9_click" src="/image/my_code_icon.png" style=" width:40rpx;height:40rpx;"  mode="aspectFit" border="0"    class="mine_9"></image>
+        <image bindtap="mine_10_10_click" src="/image/my_arrow_icon.png" style=" width:22rpx;height:34rpx;"  mode="aspectFit" border="0"    class="mine_10"></image>
+</view>
+</image>
+    <view class="mine_189">
+      <view class="mine_3">
+        <view bindtap="mine_68_68_click" class="mine_68">          <text decode="{{true}}" class="mine_69">商家订单</text>
+          <text decode="{{true}}" class="mine_70">查看更多订单</text>
+          <image bindtap="mine_71_71_click" src="/image/jiantou_icon.png" style=" width:22rpx;height:32rpx;"  mode="aspectFit" border="0"    class="mine_71"></image>
+</view>
+        <view class="mine_72">
+          <image bindtap="mine_73_73_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_73_73.jpg" style=" width:106rpx;height:61rpx;"  mode="aspectFit" border="0"    class="mine_73"></image>
+          <text decode="{{true}}" class="mine_74">待付款</text>
+        </view>
+        <view class="mine_75">
+          <image bindtap="mine_76_76_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_76_76.jpg" style=" width:106rpx;height:61rpx;"  mode="aspectFit" border="0"    class="mine_76"></image>
+          <text decode="{{true}}" class="mine_77">待发货</text>
+        </view>
+        <view class="mine_78">
+          <image bindtap="mine_79_79_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_79_79.jpg" style=" width:106rpx;height:61rpx;"  mode="aspectFit" border="0"    class="mine_79"></image>
+          <text decode="{{true}}" class="mine_80">待收货</text>
+        </view>
+        <view class="mine_81">
+          <image bindtap="mine_82_82_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_82_82.jpg" style=" width:106rpx;height:61rpx;"  mode="aspectFit" border="0"    class="mine_82"></image>
+          <text decode="{{true}}" class="mine_83">已完成</text>
+        </view>
+      </view>
+      <view class="mine_4">
+        <view class="mine_192">
+          <view class="mine_150">
+            <image bindtap="mine_151_151_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_151_151.jpg" style=" width:127rpx;height:50rpx;"  mode="aspectFit" border="0"    class="mine_151"></image>
+            <text decode="{{true}}" class="mine_152">线下订单</text>
+          </view>
+          <view bindtap="mine_162_162_click" class="mine_162">            <image bindtap="mine_163_163_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_163_163.jpg" style=" width:127rpx;height:52rpx;"  mode="aspectFit" border="0"    class="mine_163"></image>
+            <text decode="{{true}}" class="mine_164">申请店铺</text>
+</view>
+          <view class="mine_153">
+            <image bindtap="mine_154_154_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_154_154.jpg" style=" width:127rpx;height:50rpx;"  mode="aspectFit" border="0"    class="mine_154"></image>
+            <text decode="{{true}}" class="mine_155">红包发送</text>
+          </view>
+          <view bindtap="mine_165_165_click" class="mine_165">            <image bindtap="mine_166_166_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_166_166.jpg" style=" width:127rpx;height:52rpx;"  mode="aspectFit" border="0"    class="mine_166"></image>
+            <text decode="{{true}}" class="mine_167">我的团队</text>
+</view>
+          <view class="mine_156">
+            <image bindtap="mine_157_157_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_157_157.jpg" style=" width:127rpx;height:50rpx;"  mode="aspectFit" border="0"    class="mine_157"></image>
+            <text decode="{{true}}" class="mine_158">积分记录</text>
+          </view>
+          <view class="mine_168">
+            <image bindtap="mine_169_169_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_169_169.jpg" style=" width:127rpx;height:52rpx;"  mode="aspectFit" border="0"    class="mine_169"></image>
+            <text decode="{{true}}" class="mine_170">团队红包</text>
+          </view>
+          <view bindtap="mine_159_159_click" class="mine_159">            <image bindtap="mine_160_160_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_160_160.jpg" style=" width:127rpx;height:50rpx;"  mode="aspectFit" border="0"    class="mine_160"></image>
+            <text decode="{{true}}" class="mine_161">账户</text>
+</view>
+          <view class="mine_171">
+            <image bindtap="mine_172_172_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_172_172.jpg" style=" width:127rpx;height:52rpx;"  mode="aspectFit" border="0"    class="mine_172"></image>
+            <text decode="{{true}}" class="mine_173">推广奖励</text>
+          </view>
+        </view>
+        <view class="mine_193">
+          <view bindtap="mine_174_174_click" class="mine_174">            <image bindtap="mine_184_184_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_184_184.jpg" style=" width:127rpx;height:54rpx;"  mode="aspectFit" border="0"    class="mine_184"></image>
+            <text decode="{{true}}" class="mine_176">代理商</text>
+</view>
+          <view bindtap="mine_186_186_click" class="mine_186">            <image bindtap="mine_187_187_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_187_187.jpg" style=" width:127rpx;height:48rpx;"  mode="aspectFit" border="0"    class="mine_187"></image>
+            <text decode="{{true}}" class="mine_188">更多</text>
+</view>
+          <view bindtap="mine_177_177_click" class="mine_177">            <image bindtap="mine_175_175_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_175_175.jpg" style=" width:127rpx;height:54rpx;"  mode="aspectFit" border="0"    class="mine_175"></image>
+            <text decode="{{true}}" class="mine_179">信息通知</text>
+</view>
+          <view class="mine_180">
+            <image bindtap="mine_181_181_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_181_181.jpg" style=" width:127rpx;height:54rpx;"  mode="aspectFit" border="0"    class="mine_181"></image>
+            <text decode="{{true}}" class="mine_182">客服</text>
+          </view>
+          <view bindtap="mine_183_183_click" class="mine_183">            <image bindtap="mine_178_178_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/mine/images/mine_178_178.jpg" style=" width:127rpx;height:54rpx;"  mode="aspectFit" border="0"    class="mine_178"></image>
+            <text decode="{{true}}" class="mine_185">设置</text>
+</view>
+        </view>
+      </view>
+    </view>
+    <view class="mine_52">
+      <view class="jife">
+        <text decode="{{true}}" class="jf">{{jf}}</text>
+        <text decode="{{true}}" class="mine_59">积分</text>
+      </view>
+      <view class="mine_54">
+      </view>
+      <view class="hb">
+        <text decode="{{true}}" class="hb">{{hb}}</text>
+        <text decode="{{true}}" class="mine_61">红包</text>
+      </view>
+      <view class="mine_56">
+      </view>
+      <view class="mine_57">
+        <text decode="{{true}}" class="dsfhb">{{dsfhb}}</text>
+        <text decode="{{true}}" class="mine_63">待释放红包</text>
+      </view>
+      <view class="mine_15">
+      </view>
+    </view>
+  </view>

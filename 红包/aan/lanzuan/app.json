@@ -1,0 +1,106 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/searchbar/searchbar",
+    "pages/middle/middle",
+    "pages/mine/mine",
+    "pages/store/store",
+    "pages/merchat/merchat",
+    "pages/shopadmin/shopadmin",
+    "pages/order/order",
+    "pages/send/send",
+    "pages/home/home",
+    "pages/order_confirm/index",
+    "pages/goods_details/index",
+    "pages/bonusplan/bonusplan",
+    "pages/redrecord/redrecord",
+    "pages/password/password",
+    "pages/confirm/confirm",
+    "pages/failure/failure",
+    "pages/merchantmove/merchantmove",
+    "pages/merchantmoves/merchantmoves",
+    "pages/merchantmovest/merchantmovest",
+    "pages/information/information",
+    "pages/single/single",
+    "pages/commodity/commodity",
+    "pages/spec/spec",
+    "pages/install/install",
+    "pages/gathering/gathering",
+    "pages/agency/agency",
+    "pages/mestore/mestore",
+    "pages/redpacket/redpacket",
+    "pages/team/team",
+    "pages/messages/messages",
+    "pages/newsteends/newsteends",
+    "pages/newspage/newspage",
+    "pages/circularize/circularize",
+    "pages/changepassword/changepassword",
+    "pages/address/address",
+    "pages/friend/friend",
+    "pages/feedback/feedback",
+    "pages/account/account",
+    "pages/addres/addres",
+    "pages/allorder/allorder",
+    "pages/redseckill/redseckill",
+    "pages/shopintegral/shopintegral",
+    "pages/goodred/goodred",
+    "pages/snatchred/snatchred",
+    "pages/beginners/beginners",
+    "pages/red/red",
+    "pages/landing/landing",
+    "pages/register/register",
+    "pages/conter/conter",
+    "components/navbar/index",
+    "components/recommend/index",
+    "components/share-red-packets/index",
+    "components/orderGoods/index",
+    "components/swipers/index",
+    "components/goodList/index",
+    "components/promotionGood/index",
+    "components/productConSwiper/index",
+    "components/userEvaluation/index",
+    "components/coupon-window/index",
+    "components/product-window/index",
+    "components/coupon-list-window/index",
+    "components/address-window/index",
+    "components/home/index"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTitleText": ""
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#979795",
+    "selectedColor": "#1c1c1b",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "tabbarComponent/icon/sy1.png",
+        "selectedIconPath": "tabbarComponent/icon/sy2.png"
+      },
+      {
+        "pagePath": "pages/merchat/merchat",
+        "iconPath": "tabbarComponent/icon/lmsj1.png",
+        "selectedIconPath": "tabbarComponent/icon/lmsj2.png",
+        "text": "联盟商家"
+      },
+     
+      {
+        "pagePath": "pages/store/store",
+        "text": "商城",
+        "iconPath": "tabbarComponent/icon/sh1.png",
+        "selectedIconPath": "tabbarComponent/icon/sh2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "tabbarComponent/icon/grzx1.png",
+        "selectedIconPath": "tabbarComponent/icon/grzx2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

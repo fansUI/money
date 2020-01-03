@@ -1,0 +1,69 @@
+<tabbar tabbar="{{tabbar}}"></tabbar>
+<view class="middle_1">
+    <view class="middle_2">
+      <text decode="{{true}}" class="middle_3">今日红包</text>
+      <view class="middle_6">
+        <text decode="{{true}}" class="middle_5">￥</text>
+        <!-- <text decode="{{true}}" class="red">{{red}}</text> -->
+         <text  class="red">{{calendarSignDay}}</text>
+      </view>
+      <button  bindtap="calendarSign" wx:if="{{date!=calendarSignData[date]}}" class="middle_7">立即领取</button>
+      <button class="middle_7"  wx:else="">今日已领取</button>
+    
+    </view>
+    <view class="middle_8">
+      <text decode="{{true}}" class="middle_9">{{middle_9}}</text>
+    </view>
+    <view class="middle_43">
+      <view class="middle_44">
+        <view class="middle_45">
+          <image bindtap="middle_46_46_click" src="/image/enve_zuojt_icon.png" style=" width:32rpx;height:48rpx;"  mode="aspectFit" border="0"    class="middle_46"></image>
+     <view class="time" > {{year}}年{{month}}月</view>
+
+          <image bindtap="middle_48_48_click" src="/image/enve_youjit_icon.png" style=" width:32rpx;height:48rpx;"  mode="aspectFit" border="0"    class="middle_48"></image>
+        </view>
+      </view>
+      <view class="middle_49">
+        <view class="middle_50">
+          <text decode="{{true}}" class="middle_51">日</text>
+          <text decode="{{true}}" class="middle_52">一</text>
+          <text decode="{{true}}" class="middle_53">二</text>
+          <text decode="{{true}}" class="middle_54">三</text>
+          <text decode="{{true}}" class="middle_55">四</text>
+          <text decode="{{true}}" class="middle_56">五</text>
+          <text decode="{{true}}" class="middle_57">六</text>
+        </view>
+        <view class="rqi">
+          <view class="middle_67">
+          </view>
+
+ 
+  <view class="week">
+    <!--已过未签日期-->
+    <view class="box" wx:for="{{date-1}}" >
+      <view class="boxs" wx:if="{{item+1==calendarSignData[item+1]}}" >{{item+1}}</view>
+      <text wx:else="">{{item+1}}</text>
+    </view>
+    <!-- 未签日期 -->
+    <view class="">
+      <view class="boxs" wx:if="{{date==calendarSignData[date]}}">{{date}}</view>
+      <view  class="box"  wx:else="">{{date}}</view>
+    </view>
+    <view class="act" wx:for="{{monthDaySize-date}}">{{item+date+1}}</view>
+</view>
+
+
+        </view>
+      </view>
+    </view>
+    <!-- <view class="middle_65">
+      <text decode="{{true}}" class="middle_66">1</text>
+    </view>
+    <view class="middle_63">
+      <text decode="{{true}}" class="middle_64">1</text>
+    </view> -->
+  </view>
+
+
+
+

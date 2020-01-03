@@ -1,0 +1,8 @@
+<view class="merchantmovest_1">
+    <image bindtap="merchantmovest_2_2_click" src="http://wx.ymznkf.com/project/wxapp/8576/tabbarDemo/merchantmovest/images/merchantmovest_2_2.jpg" style=" width:750rpx;height:208rpx;"  mode="scaleToFill" border="0"    class="merchantmovest_2"></image>
+    <image bindtap="merchantmovest_3_3_click" src="http://wx.ymznkf.com/project/wxapp/8576/tabbarDemo/merchantmovest/images/merchantmovest_3_3.jpg" style=" width:750rpx;height:339rpx;"  mode="scaleToFill" border="0"    class="merchantmovest_3"></image>
+    <text decode="{{true}}" class="merchantmovest_5">资料审核中</text>
+    <text decode="{{true}}" class="merchantmovest_6">资料审核需要1-5个工作日</text>
+    <text decode="{{true}}" class="merchantmovest_7">请耐心等待审查结果</text>
+    <text bindtap="merchantmovest_8_8_click" decode="{{true}}" class="merchantmovest_8">暂时留存商户入口</text>
+  </view>

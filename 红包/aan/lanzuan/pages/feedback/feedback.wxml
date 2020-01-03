@@ -1,0 +1,17 @@
+<view class="feedback_1">
+    <view class="feedback_5">
+      <view class="feedback_2">
+        <textarea placeholder="请输入意见..." value="{{feed}}" bindinput="feed_input" class="feed"></textarea>
+      </view>
+      <button bindtap="btn_yijan_6_click" class="btn_yijan">提交
+      </button>
+    </view>
+    <view class="feedback_8">
+      <view class="feedback_9">
+        <image bindtap="feedback_10_10_click" src="/image/qq_icon.png" style=" width:87rpx;height:90rpx;"  mode="aspectFit" border="0"    class="feedback_10"></image>
+        <text decode="{{true}}" class="qq">{{qq}}</text>
+        <image bindtap="feedback_11_11_click" src="/image/weix_icon.png" style=" width:88rpx;height:89rpx;"  mode="aspectFit" border="0"    class="feedback_11"></image>
+        <text decode="{{true}}" class="wechant">{{wechant}}</text>
+      </view>
+    </view>
+  </view>

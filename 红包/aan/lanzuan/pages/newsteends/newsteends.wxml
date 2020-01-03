@@ -1,0 +1,15 @@
+<view class="newsteends_1">
+    <view class="newsteends_2">
+      <image bindtap="newsteends_3_3_click" src="/tabbarComponent/icon/zuixin.png" style=" width:152rpx;height:47rpx;"  mode="aspectFit" border="0"    class="newsteends_3"></image>
+    </view>
+    <view class="newsteends_4">
+    <view wx:for="{{list_4}}" wx:key="{{index}}">
+
+      <view bindtap="newsteends_5_5_click" class="newsteends_5">        <image bindtap="img_6_click" src="{{item.img}}" style=" width:95rpx;height:95rpx;"  mode="scaleToFill" border="0"    class="img"></image>
+        <text decode="{{true}}" class="laiy">{{item.laiy}}</text>
+        <text decode="{{true}}" class="till">{{item.till}}</text>
+        <text decode="{{true}}" class="time">{{item.time}}</text>
+</view>
+    </view>
+</view>
+  </view>

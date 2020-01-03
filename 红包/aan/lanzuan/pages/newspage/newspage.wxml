@@ -1,0 +1,9 @@
+<view class="newspage_1">
+    <text decode="{{true}}" class="till">{{till}}</text>
+    <text decode="{{true}}" class="time">{{time}}</text>
+    <view class="newspage_5">
+      <image bindtap="imag_6_click" src="{{imag}}" style=" width:667rpx; height='auto'"  mode="aspectFit" border="0"    class="imag"></image>
+      <text decode="{{true}}" class="wenzi">{{wenzi}}</text>
+    </view>
+    <text decode="{{true}}" class="laiy">{{laiy}}</text>
+  </view>

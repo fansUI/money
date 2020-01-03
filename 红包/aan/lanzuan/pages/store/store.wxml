@@ -1,0 +1,20 @@
+<tabbar tabbar="{{tabbar}}"></tabbar>
+<view class="store_1">
+    <image bindtap="banner_2_click" src="{{banner}}" style=" width:687rpx;height:290rpx;"  mode="aspectFit" border="0"    class="banner"></image>
+    <view class="store_list">
+    <view wx:for="{{list_store_list}}" wx:key="{{index}}">
+
+      <view bindtap="sc_content_9_click" class="sc_content">        <image bindtap="sc_img_10_click" src="{{item.sc_img}}" style=" width:330rpx;height:331rpx;"  mode="aspectFit" border="0"    class="sc_img"></image>
+        <view class="store_19">
+          <text decode="{{true}}" class="sc_price">{{item.sc_price}}</text>
+          <view class="store_12">
+            <image bindtap="sc_hbtb_28_click" src="{{item.sc_hbtb}}" style=" width:30rpx;height:31rpx;"  mode="aspectFit" border="0"    class="sc_hbtb"></image>
+            <text decode="{{true}}" class="sc_red">{{item.sc_red}}</text>
+          </view>
+          <text decode="{{true}}" class="sc_name">{{item.sc_name}}</text>
+          <text decode="{{true}}" class="sc_scj">{{item.sc_scj}}</text>
+        </view>
+</view>
+    </view>
+</view>
+  </view>

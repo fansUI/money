@@ -1,0 +1,13 @@
+<view class="send_1">
+    <view class="send_5">
+    <view wx:for="{{list_5}}" wx:key="{{index}}">
+
+      <view class="send_10">
+        <text decode="{{true}}" class="fs_content">{{item.fs_content}}</text>
+        <text decode="{{true}}" class="name">{{item.name}}</text>
+        <text decode="{{true}}" class="time">{{item.time}}</text>
+        <text decode="{{true}}" class="xf">{{item.xf}}</text>
+      </view>
+    </view>
+</view>
+  </view>

@@ -1,0 +1,38 @@
+<view class="single_1">
+    <view class="single_2">
+      <view class="single_3">
+        <view class="single_4">
+          <text decode="{{true}}" class="single_11">手机号</text>
+          <input placeholder="请输入手机号" value="{{phone}}" bindinput="phone_input" class="phone"></input>
+        </view>
+        <view class="single_13">
+          <text decode="{{true}}" class="single_14">商品名称</text>
+          <input placeholder="请输入商城名称（不超过10个字）" value="{{name}}" bindinput="name_input" class="name"></input>
+        </view>
+        <view class="single_16">
+          <text decode="{{true}}" class="single_17">单价</text>
+          <input placeholder="请输入单价" value="{{danjia}}" bindinput="danjia_input" class="danjia"></input>
+        </view>
+        <view class="single_19">
+          <text decode="{{true}}" class="single_20">数量</text>
+          <input placeholder="请输入数量" value="{{shuliang}}" bindinput="shuliang_input" class="shuliang"></input>
+        </view>
+        <view class="single_22">
+          <text decode="{{true}}" class="single_23">总价</text>
+          <input placeholder="0" value="{{zongjia}}" bindinput="zongjia_input" class="zongjia"></input>
+        </view>
+        <view class="single_25">
+          <text decode="{{true}}" class="single_26">促单意向金</text>
+          <input placeholder="请输入促单意向金" value="{{yxj}}" bindinput="yxj_input" class="yxj"></input>
+        </view>
+        <view class="single_28">
+          <text decode="{{true}}" class="single_29">平台赠送积分</text>
+          <input placeholder="促单意向金的90%" value="{{jif}}" bindinput="jif_input" class="jif"></input>
+        </view>
+      </view>
+    </view>
+    <view class="single_31">
+      <button bindtap="boont_32_click" class="boont">提交
+      </button>
+    </view>
+  </view>

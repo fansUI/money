@@ -1,0 +1,17 @@
+<view class="failure_1">
+    <view class="failure_2">
+      <image bindtap="failure_3_3_click" src="http://wx.ymznkf.com/project/wxapp/8576/tabbarDemo/failure/images/failure_3_3.jpg" style=" width:32rpx;height:42rpx;"  mode="scaleToFill" border="0"    class="failure_3"></image>
+      <text decode="{{true}}" class="failure_4">商家入驻</text>
+      <text decode="{{true}}" class="failure_5">入驻协议</text>
+    </view>
+    <image bindtap="failure_6_6_click" src="http://wx.ymznkf.com/project/wxapp/8576/tabbarDemo/failure/images/failure_6_6.jpg" style=" width:748rpx;height:591rpx;"  mode="scaleToFill" border="0"    class="failure_6"></image>
+    <view class="failure_7">
+      <text decode="{{true}}" class="failure_8">认证失败</text>
+      <text decode="{{true}}" class="failure_9">失败原因描述</text>
+    </view>
+    <view class="failure_10">
+      <button bindtap="failure_11_11_click" class="failure_11">
+        <text decode="{{true}}" class="failure_12">重新认证</text>
+      </button>
+    </view>
+  </view>

@@ -1,0 +1,40 @@
+<view class="shopadmin_1">
+    <view class="shopadmin_7">
+      <view class="shopadmin_30">
+        <text decode="{{true}}" class="shopadmin_31">商家名称</text>
+        <input placeholder="请输入商店名称" value="{{shop}}" bindinput="shop_input" class="shop"></input>
+      </view>
+      <view class="shopadmin_33">
+        <text decode="{{true}}" class="shopadmin_34">门头图片</text>
+        <text decode="{{true}}" class="shopadmin_35">*请在街面角度拍摄门店头图</text>
+      </view>
+      <view class="shopadmin_36">
+        <view class="shopadmin_43">
+        </view>
+        <view class="shopadmin_42">
+        </view>
+      </view>
+      <view class="shopadmin_37">
+        <text decode="{{true}}" class="shopadmin_38">店铺内图片</text>
+        <text decode="{{true}}" class="shopadmin_39">*请拍摄出售商品或服务图片</text>
+      </view>
+      <view class="shopadmin_44">
+        <view class="shopadmin_46">
+        </view>
+        <view class="shopadmin_45">
+        </view>
+      </view>
+      <view class="shopadmin_47">
+        <view class="shopadmin_49">
+        </view>
+        <view class="shopadmin_48">
+        </view>
+      </view>
+      <text decode="{{true}}" class="shopadmin_50">*点击可修改图片</text>
+    </view>
+    <view class="shopadmin_51">
+      <button bindtap="shopadmin_52_52_click" class="shopadmin_52">
+        <text decode="{{true}}" class="shopadmin_53">确定</text>
+      </button>
+    </view>
+  </view>

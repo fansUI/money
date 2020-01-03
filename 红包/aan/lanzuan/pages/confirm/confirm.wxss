@@ -1,0 +1,67 @@
+button::after {border: none;width: auto;}
+input{outline: none;border: none;list-style: none;width: auto;}
+.list_item{float: left;}
+.ym_hide{display: none;}
+.ym_show{display: block;}
+.slide-image {  width: 100%;  height:100%;}
+ .confirm_1{width:750rpx;height:1775rpx;min-height:1880rpx;padding:0rpx;clear:both;float:left;background-color:#f5f5f5;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .confirm_1 .confirm_3{width:750rpx;height:290rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .confirm_1 .confirm_3 .confirm_5{width:750rpx;height:119rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;background-color:#fcfffc;text-align:left; border-bottom-color:#c0c0c0; border-bottom-width:1rpx; border-bottom-style:solid; border-radius:0rpx;font-size:12rpx;}
+ .confirm_1 .confirm_3 .confirm_5 .confirm_7{width:260rpx;height:39rpx;padding:0rpx;margin-top:38rpx;margin-left:263rpx;float:left;text-align:left; border-radius:0rpx;font-size:37rpx; line-height:39rpx;}
+ .confirm_1 .confirm_3 .confirm_5 .confirm_7 .confirm_8{width:39rpx;height:39rpx;padding:0rpx;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx;font-size:37rpx; line-height:39rpx;}
+ .confirm_1 .confirm_3 .confirm_5 .confirm_7 .confirm_9{width:209rpx;height:39rpx;padding:0rpx;margin-top:0rpx;margin-left:11rpx;float:left;text-align:center; border-radius:0rpx; color:#ff0000;font-size:31rpx; line-height:39rpx;}
+ .confirm_1 .confirm_3 .confirm_6{width:750rpx;height:170rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;background-color:#fcfffc;text-align:left; border-bottom-color:#c0c0c0; border-bottom-width:1rpx; border-bottom-style:solid; border-radius:0rpx;font-size:12rpx;}
+ .confirm_1 .confirm_12{width:750rpx;height:116rpx;padding:0rpx;clear:both;margin-top:19rpx;margin-left:0rpx;float:left;background-color:#ffffff;text-align:left; border-bottom-color:#c0c0c0; border-bottom-width:1rpx; border-bottom-style:solid; border-radius:0rpx;font-size:12rpx;}
+ .confirm_1 .confirm_12 .confirm_13{width:136rpx;height:32rpx;padding:0rpx;margin-top:52rpx;margin-left:25rpx;float:left;text-align:center; border-radius:0rpx; color:#000000;font-size:30rpx; line-height:32rpx;}
+ .confirm_1 .confirm_14{width:750rpx;position: relative;height:314rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;background-color:#ffffff;text-align:left; border-bottom-color:#c0c0c0; border-bottom-width:1rpx; border-bottom-style:solid; border-radius:0rpx;font-size:12rpx;}
+ .confirm_1 .confirm_14 .confirm_15{width:252rpx;height:251rpx;padding:0rpx;margin-top:32rpx;margin-left:28rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:20rpx;font-size:12rpx; line-height:251rpx;}
+ .confirm_1 .confirm_14 .confirm_16{width:359rpx;height:75rpx;padding:0rpx;margin-top:39rpx;margin-left:319rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#000000;font-size:32rpx; line-height:52rpx;}
+ .confirm_1 .confirm_14 .confirm_17{width:78rpx;height:32rpx;padding:0rpx;margin-top:179rpx;margin-left:319rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#808080;font-size:30rpx; line-height:32rpx;}
+ .confirm_1 .confirm_14 .confirm_19{width:78rpx;height:32rpx;padding:0rpx;margin-top:241rpx;margin-left:319rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#808080;font-size:30rpx; line-height:32rpx;}
+ .confirm_1 .confirm_14 .confirm_18{width:71rpx;height:32rpx;padding:0rpx;margin-top:179rpx;margin-left:397rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#808080;font-size:31rpx; line-height:32rpx;}
+ .confirm_1 .confirm_14 .confirm_20{width:201rpx;height:32rpx;padding:0rpx;margin-top:241rpx;margin-left:397rpx;float:left;position: absolute;top: 0rpx;left: 0rpx;text-align:left; border-radius:0rpx; color:#ff0000;font-size:31rpx; line-height:32rpx;}
+ .confirm_1 .confirm_21{width:750rpx;height:92rpx;padding:0rpx;clear:both;margin-top:19rpx;margin-left:0rpx;float:left;background-color:#ffffff;text-align:left; border-radius:0rpx;font-size:90rpx; line-height:92rpx;}
+ .confirm_1 .confirm_21 .confirm_38{width:685rpx;height:30rpx;padding:0rpx;margin-top:31rpx;margin-left:34rpx;float:left;text-align:left; border-radius:0rpx;font-size:28rpx; line-height:30rpx;}
+ .confirm_1 .confirm_21 .confirm_38 .confirm_39{width:96rpx;height:29rpx;padding:0rpx;margin-top:1rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx; color:#000000;font-size:27rpx; line-height:29rpx;}
+ .confirm_1 .confirm_21 .confirm_38 .confirm_40{width:102rpx;height:28rpx;padding:0rpx;margin-top:1rpx;margin-left:459rpx;float:left;text-align:left; border-radius:0rpx; color:#808080;font-size:26rpx; line-height:28rpx;}
+ .confirm_1 .confirm_21 .confirm_38 .confirm_41{width:16rpx;height:30rpx;padding:0rpx;margin-top:0rpx;margin-left:9rpx;float:left;text-align:left; border-radius:0rpx;font-size:28rpx; line-height:30rpx;}
+ .confirm_1 .confirm_22{width:750rpx;height:89rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;background-color:#fdfffd;text-align:left; border-radius:0rpx;font-size:87rpx; line-height:89rpx;}
+ .confirm_1 .confirm_22 .confirm_43{width:121rpx;height:29rpx;padding:0rpx;margin-top:30rpx;margin-left:34rpx;float:left;text-align:left; border-radius:0rpx; color:#808080;font-size:27rpx; line-height:29rpx;}
+ .confirm_1 .confirm_22 .confirm_44{width:121rpx;height:29rpx;padding:0rpx;margin-top:30rpx;margin-left:354rpx;float:left;text-align:left; border-radius:0rpx; color:#808080;font-size:27rpx; line-height:29rpx;}
+ .confirm_1 .confirm_22 .confirm_45{width:43rpx;height:29rpx;padding:0rpx;margin-top:30rpx;margin-left:0rpx;float:left;text-align:center; border-radius:0rpx; color:#808080;font-size:28rpx; line-height:29rpx;}
+ .confirm_1 .confirm_22 .an{width:36rpx;height:36rpx;padding:0rpx;margin-top:27rpx;margin-left:7rpx;float:left;text-align:left; border-radius:0rpx;font-size:34rpx; line-height:36rpx;}
+ .confirm_1 .confirm_23{width:750rpx;height:89rpx;padding:0rpx;clear:both;margin-top:0rpx;margin-left:0rpx;float:left;background-color:#ffffff;text-align:left; border-radius:0rpx;font-size:87rpx; line-height:89rpx;}
+ .confirm_1 .confirm_23 .confirm_48{width:129rpx;height:28rpx;padding:0rpx;margin-top:30rpx;margin-left:34rpx;float:left;text-align:left; border-radius:0rpx; color:#808080;font-size:27rpx; line-height:28rpx;}
+ .confirm_1 .confirm_23 .confirm_49{width:97rpx;height:28rpx;padding:0rpx;margin-top:31rpx;margin-left:470rpx;float:left;text-align:left; border-radius:0rpx; color:#808080;font-size:28rpx; line-height:28rpx;}
+ .confirm_1 .confirm_24{width:750rpx;height:327rpx;padding:0rpx;clear:both;margin-top:19rpx;margin-left:0rpx;float:left;background-color:#fdfffd;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .confirm_1 .confirm_24 .confirm_51{width:133rpx;height:33rpx;padding:0rpx;clear:both;margin-top:29rpx;margin-left:30rpx;float:left;text-align:left; border-radius:0rpx; color:#000000;font-size:28rpx; line-height:33rpx;}
+ .confirm_1 .confirm_24 .confirm_52{width:675rpx;height:90rpx;padding:0rpx;clear:both;margin-top:29rpx;margin-left:36rpx;float:left;text-align:left; border-radius:0rpx;font-size:90rpx; line-height:90rpx;}
+ .confirm_1 .confirm_24 .confirm_52 .confirm_54{width:46rpx;height:48rpx;padding:0rpx;margin-top:20rpx;margin-left:76rpx;float:left;text-align:left; border-radius:23rpx;font-size:48rpx; line-height:48rpx;}
+ .confirm_1 .confirm_24 .confirm_52 .confirm_55{width:117rpx;height:29rpx;padding:0rpx;margin-top:30rpx;margin-left:20rpx;float:left;text-align:left; border-radius:0rpx; color:#ff8040;font-size:26rpx; line-height:29rpx;}
+ .confirm_1 .confirm_24 .confirm_52 .confirm_61{width:1rpx;height:50rpx;padding:0rpx;margin-top:17rpx;margin-left:73rpx;float:left;background-color:#c0c0c0;text-align:left; border-radius:0rpx;font-size:47rpx; line-height:50rpx;}
+ .confirm_1 .confirm_24 .confirm_52 .confirm_56{width:118rpx;height:29rpx;padding:0rpx;margin-top:30rpx;margin-left:79rpx;float:left;text-align:left; border-radius:0rpx; color:#808080;font-size:26rpx; line-height:29rpx;}
+ .confirm_1 .confirm_24 .confirm_52 .confirm_57{width:82rpx;height:29rpx;padding:0rpx;margin-top:30rpx;margin-left:0rpx;float:left;text-align:center; border-radius:0rpx; color:#808080;font-size:28rpx; line-height:29rpx;}
+ .confirm_1 .confirm_24 .confirm_53{width:675rpx;height:91rpx;padding:0rpx;clear:both;margin-top:19rpx;margin-left:36rpx;float:left;text-align:left; border-radius:0rpx;font-size:89rpx; line-height:91rpx;}
+ .confirm_1 .confirm_24 .confirm_53 .confirm_58{width:46rpx;height:48rpx;padding:0rpx;margin-top:22rpx;margin-left:76rpx;float:left;text-align:left; border-radius:23rpx;font-size:48rpx; line-height:48rpx;}
+ .confirm_1 .confirm_24 .confirm_53 .confirm_59{width:117rpx;height:29rpx;padding:0rpx;margin-top:32rpx;margin-left:20rpx;float:left;text-align:left; border-radius:0rpx; color:#000000;font-size:26rpx; line-height:29rpx;}
+ .confirm_1 .confirm_24 .confirm_53 .confirm_62{width:1rpx;height:50rpx;padding:0rpx;margin-top:21rpx;margin-left:73rpx;float:left;background-color:#c0c0c0;text-align:left; border-radius:0rpx;font-size:47rpx; line-height:50rpx;}
+ .confirm_1 .confirm_24 .confirm_53 .confirm_60{width:175rpx;height:29rpx;padding:0rpx;margin-top:32rpx;margin-left:92rpx;float:left;text-align:left; border-radius:0rpx; color:#808080;font-size:26rpx; line-height:29rpx;}
+ .confirm_1 .confirm_25{width:750rpx;height:248rpx;padding:0rpx;clear:both;margin-top:19rpx;margin-left:0rpx;float:left;background-color:#fdfffd;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .confirm_1 .confirm_25 .confirm_63{width:717rpx;height:32rpx;padding:0rpx;clear:both;margin-top:39rpx;margin-left:32rpx;float:left;text-align:left; border-radius:0rpx;font-size:28rpx; line-height:32rpx;}
+ .confirm_1 .confirm_25 .confirm_63 .confirm_64{width:150rpx;height:32rpx;padding:0rpx;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx; color:#000000;font-size:29rpx; line-height:32rpx;}
+ .confirm_1 .confirm_25 .confirm_63 .confirm_65{width:186rpx;height:32rpx;padding:0rpx;margin-top:0rpx;margin-left:367rpx;float:left;text-align:right; border-radius:0rpx; color:#808080;font-size:31rpx; line-height:32rpx;}
+ .confirm_1 .confirm_25 .confirm_66{width:717rpx;height:32rpx;padding:0rpx;clear:both;margin-top:38rpx;margin-left:32rpx;float:left;text-align:left; border-radius:0rpx;font-size:28rpx; line-height:32rpx;}
+ .confirm_1 .confirm_25 .confirm_66 .confirm_67{width:150rpx;height:32rpx;padding:0rpx;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx; color:#000000;font-size:29rpx; line-height:32rpx;}
+ .confirm_1 .confirm_25 .confirm_66 .confirm_68{width:186rpx;height:32rpx;padding:0rpx;margin-top:0rpx;margin-left:367rpx;float:left;text-align:right; border-radius:0rpx; color:#808080;font-size:31rpx; line-height:32rpx;}
+ .confirm_1 .confirm_25 .confirm_69{width:717rpx;height:32rpx;padding:0rpx;clear:both;margin-top:35rpx;margin-left:32rpx;float:left;text-align:left; border-radius:0rpx;font-size:28rpx; line-height:32rpx;}
+ .confirm_1 .confirm_25 .confirm_69 .confirm_70{width:150rpx;height:32rpx;padding:0rpx;margin-top:0rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx; color:#000000;font-size:29rpx; line-height:32rpx;}
+ .confirm_1 .confirm_25 .confirm_69 .confirm_71{width:186rpx;height:32rpx;padding:0rpx;margin-top:0rpx;margin-left:367rpx;float:left;text-align:right; border-radius:0rpx; color:#808080;font-size:31rpx; line-height:32rpx;}
+ .confirm_1 .bounnt{width:750rpx;height:104rpx;padding:0rpx;clear:both;float:left;position: fixed;left:0rpx;bottom:0rpx;background-color:#ffffff;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .confirm_1 .bounnt .confirm_72{width:92rpx;height:41rpx;padding:0rpx;margin-top:32rpx;margin-left:83rpx;float:left;text-align:left; border-radius:0rpx; color:#000000;font-size:33rpx; line-height:41rpx;}
+ .confirm_1 .bounnt .confirm_73{width:180rpx;height:41rpx;padding:0rpx;margin-top:32rpx;margin-left:0rpx;float:left;text-align:left; border-radius:0rpx; color:#ff0000;font-size:34rpx; line-height:41rpx;}
+ .confirm_1 .bounnt .btn_a{width:302rpx;height:104rpx;padding:0rpx;margin-top:0rpx;margin-left:91rpx;float:left;background-color:#f2552a;text-align:left; border-radius:0rpx;font-size:12rpx;}
+ .confirm_1 .bounnt .btn_a_label{float:left;}
+ .confirm_1 .bounnt .btn_a_button{float:left;color:#000000;font-size:30rpx;text-align:center;line-height:30rpx;border-color:#e1e1e1;border-width: 1rpx;border-style:solid;border-radius:5rpx;padding:10rpx;margin:15rpx;}
+ .confirm_1 .bounnt .btn_a_button_select{float:left;color:#ff8000;font-size:30rpx;text-align:center;line-height:30rpx;border-color:#ff8000;border-width: 1rpx;border-style:solid;border-radius:5rpx;padding:10rpx;margin:15rpx;}
+ .confirm_1 .bounnt .btn_a_title{float:left;}
+ .confirm_1 .bounnt .btn_a .confirm_75{width:120rpx;height:33rpx;padding:0rpx;margin-top:36rpx;margin-left:91rpx;float:left;text-align:left; border-radius:0rpx; color:#ffffff;font-size:27rpx; line-height:33rpx;}

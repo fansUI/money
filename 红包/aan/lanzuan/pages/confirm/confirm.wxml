@@ -1,0 +1,78 @@
+<view class="confirm_1">
+    <view class="confirm_3">
+      <view bindtap="confirm_5_5_click" class="confirm_5">        <view class="confirm_7">
+          <image bindtap="confirm_8_8_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/confirm/images/confirm_8_8.jpg" style=" width:39rpx;height:39rpx;"  mode="scaleToFill" border="0"    class="confirm_8"></image>
+          <text decode="{{true}}" class="confirm_9">选择收货地址</text>
+        </view>
+</view>
+      <view class="confirm_6">
+      </view>
+    </view>
+    <view class="confirm_12">
+      <text decode="{{true}}" class="confirm_13">{{confirm_13}}</text>
+    </view>
+    <view class="confirm_14">
+      <image bindtap="confirm_15_15_click" src="{{confirm_15}}" style=" width:252rpx;height:251rpx;"  mode="scaleToFill" border="0"    class="confirm_15"></image>
+      <text decode="{{true}}" class="confirm_16">{{confirm_16}}</text>
+      <text decode="{{true}}" class="confirm_17">数量:</text>
+      <text decode="{{true}}" class="confirm_19">售价:</text>
+      <text decode="{{true}}" class="confirm_18">{{confirm_18}}</text>
+      <text decode="{{true}}" class="confirm_20">{{confirm_20}}</text>
+    </view>
+    <view class="confirm_21">
+      <view class="confirm_38">
+        <text decode="{{true}}" class="confirm_39">优惠券</text>
+        <text decode="{{true}}" class="confirm_40">请选择</text>
+        <image bindtap="confirm_41_41_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/confirm/images/confirm_41_41.jpg" style=" width:16rpx;height:30rpx;"  mode="scaleToFill" border="0"    class="confirm_41"></image>
+      </view>
+    </view>
+    <view class="confirm_22">
+      <text decode="{{true}}" class="confirm_43">红包抵扣</text>
+      <text decode="{{true}}" class="confirm_44">剩余红包</text>
+      <text decode="{{true}}" class="confirm_45">{{confirm_45}}</text>
+      <image bindtap="an_46_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/confirm/images/confirm_an_46.jpg" style=" width:36rpx;height:36rpx;"  mode="scaleToFill" border="0"    class="an"></image>
+    </view>
+    <view class="confirm_23">
+      <text decode="{{true}}" class="confirm_48">快递费用</text>
+      <text decode="{{true}}" class="confirm_49">免运费</text>
+    </view>
+    <view class="confirm_24">
+      <text decode="{{true}}" class="confirm_51">支付方式</text>
+      <view class="confirm_52">
+        <image bindtap="confirm_54_54_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/confirm/images/confirm_54_54.jpg" style=" width:46rpx;height:48rpx;"  mode="scaleToFill" border="0"    class="confirm_54"></image>
+        <text decode="{{true}}" class="confirm_55">余额支付</text>
+        <view class="confirm_61">
+        </view>
+        <text decode="{{true}}" class="confirm_56">可用余额:</text>
+        <text decode="{{true}}" class="confirm_57">{{confirm_57}}</text>
+      </view>
+      <view class="confirm_53">
+        <image bindtap="confirm_58_58_click" src="http://wx.ymznkf.com/project/8576/tabbarDemo/confirm/images/confirm_58_58.jpg" style=" width:46rpx;height:48rpx;"  mode="scaleToFill" border="0"    class="confirm_58"></image>
+        <text decode="{{true}}" class="confirm_59">微信支付</text>
+        <view class="confirm_62">
+        </view>
+        <text decode="{{true}}" class="confirm_60">微信快捷支付</text>
+      </view>
+    </view>
+    <view class="confirm_25">
+      <view class="confirm_63">
+        <text decode="{{true}}" class="confirm_64">商品总价</text>
+        <text decode="{{true}}" class="confirm_65">{{confirm_65}}</text>
+      </view>
+      <view class="confirm_66">
+        <text decode="{{true}}" class="confirm_67">红包抵扣</text>
+        <text decode="{{true}}" class="confirm_68">{{confirm_68}}</text>
+      </view>
+      <view class="confirm_69">
+        <text decode="{{true}}" class="confirm_70">运费</text>
+        <text decode="{{true}}" class="confirm_71">{{confirm_71}}</text>
+      </view>
+    </view>
+    <view class="bounnt">
+      <text decode="{{true}}" class="confirm_72">合计:</text>
+      <text decode="{{true}}" class="confirm_73">{{confirm_73}}</text>
+      <button bindtap="btn_a_74_click" class="btn_a">
+        <text decode="{{true}}" class="confirm_75">提交订单</text>
+      </button>
+    </view>
+  </view>

@@ -1,0 +1,32 @@
+<view class="redpacket_1">
+    <view class="redpacket_2">
+      <text decode="{{true}}" class="redpacket_3">红包余额(元)</text>
+      <text decode="{{true}}" class="content_yue">{{content_yue}}</text>
+    </view>
+    <view class="redpacket_5">
+      <text decode="{{true}}" class="redpacket_6">收红包地址</text>
+      <input placeholder="请输入地址" value="{{content_dizi}}" bindinput="content_dizi_input" class="content_dizi"></input>
+    </view>
+    <view class="redpacket_11">
+      <text decode="{{true}}" class="redpacket_8">转出余额</text>
+      <input placeholder="请输入金额" value="{{content_jine}}" bindinput="content_jine_input" class="content_jine"></input>
+    </view>
+    <view class="redpacket_12">
+      <text decode="{{true}}" class="redpacket_10">转入商户类型</text>
+      <view class="redpacket_16">
+
+
+        <radio-group class="item-right radio-group" bindchange="changeSex">
+          <label class="gr" wx:for="{{items}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.name}}</label>
+     </radio-group>
+
+      </view>
+    </view>
+    <view class="redpacket_13">
+      <button bindtap="btn_zhuan_14_click" class="btn_zhuan">转出
+      </button>
+    </view>
+  </view>
+
+ 
